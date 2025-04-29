@@ -1,7 +1,7 @@
 # jQuery Notes
 
 ## To start
-Add this at the top of the HTML page. The browser will run any JavaScript inside a `<script>` element. It is important to use `document ready function` because your code may run before your HTML is rendered that would cause bugs.
+Add this at the top of the HTML page. The browser will run any JavaScript inside the `<script>` element. It is important to use `document ready function` because your code may run before your HTML is rendered that would cause bugs.
 
 ```
 <script>
@@ -14,7 +14,7 @@ For example, let's make `button` type-elements bounce. Add a jQuery selector `$(
 ```
 <script>
   $(document).ready(function() {
-    $("button").addClass("animated bounce");   // Added two classes
+    $("button").addClass("animated bounce");   // Added two classes: animated, bounce
   });
 </script>
 ```
@@ -27,7 +27,7 @@ Just like CSS declaractions, type a `.` before the class's name and `#` for id.
   $(document).ready(function() {
     $("button").addClass("animated bounce");
     $(".text-primary").addClass("animated shake")
-    $("#target6").addClass("animated fadeOut btn-primary");  // Added three classes
+    $("#target6").addClass("animated fadeOut btn-primary");  // Added three classes: anited, fadeOut, btn-primary
   });
 </script>
 ```
