@@ -1,4 +1,4 @@
-# Javascript Notes
+# JavaScript Notes
 
 ## Objects
 Objects are collections of key-value pairs, i.e., dictionary in Python. The object `data` below contains three properties (or *keys*): player, fightingStyle, hair color, age, human, costume color. Each *key* has a *value*.
