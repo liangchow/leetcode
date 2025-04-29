@@ -47,7 +47,7 @@ Simiarly, `removeClass()` to remove particular target element and style.
 ## Other functions
 
 - `.html()` to target properties of HTML tags: `$("h3").html("<em>Hello World!</em>")` to change the default `h3` HTML tag.
-- `.css()` to overwrite CSS styling: `$("#target1").css("background-color", "blue")` to change background color to blue for #target1.
+- `.css()` to overwrite CSS styling rules: `$("#target1").css("background-color", "blue")` to change background color to blue for #target1.
 - `.prop()` to access properties of elements: `$("button").prop("disable", true)` to disable button.
 - `.remove()` to remove an HTML element: `$("#target4").remove()` to remove #target4 button.
 - `.appendTo()` to move an element: `$("#target4").appendTo("#left-well")` to move #target4 from `right-well` to the `left-well`.
