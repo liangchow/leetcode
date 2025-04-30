@@ -22,7 +22,9 @@ The `package.json` file is the center of any Node.js project or npm package. It 
 	"version": "1.2.0",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+        "hbr": "^1.1.0",
+        "nodemon": "^3.1.10"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -33,7 +35,7 @@ The `package.json` file is the center of any Node.js project or npm package. It 
 		"url": "git+https://github.com/freeCodeCamp/boilerplate-npm.git"
 	},
 	"version": "1.0.0",
-	"description": "This is the boilerplate code for the Managing Packages With npm Challenges. Instructions for working on these challenges start at https://www.freecodecamp.org/learn/back-end-development-and-apis/managing-packages-with-npm/",
+	"description": "This is the boilerplate code for the Managing Packages With npm Challenges.",
 	"keywords": [],
 	"license": "ISC",
 	"bugs": {
@@ -42,4 +44,45 @@ The `package.json` file is the center of any Node.js project or npm package. It 
 	"homepage": "https://github.com/freeCodeCamp/boilerplate-npm#readme"
 }
 ```
+## Express.js
+
+In `package.json`, add:
+
+- **`"start": "node --watch server.js"`**: To enable server auto-restarting on file saved.
+- Or, install **`nodemon`** package.
+- Install **`npm i hbr express`** handlebar package for dynamic web rendering.
+
+To create an Express.js, add the following:
+
+```
+const express = require('express');
+const app = express();
+```
+
+For static rendering, add `path` module and HTML pages to `/public`:
+
+```
+// myApp.js
+// index.html --- static
+
+const express = require('express');
+const app = express();
+const path = require('path'); //import path module
+
+app.use(express.static(path.join(__dirname, "/public")));
+
+app.get("/", (req, res) => {
+    res.send("Hello World");
+});
+
+app.listen(3000, ()=>{
+    console.log("Server is running on 3000");
+})
+```
+<!-- 
+For dynamic rendering, install **`hbr express`** module and 
+ -->
+
+
+
 
