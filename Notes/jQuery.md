@@ -46,16 +46,16 @@ Simiarly, `removeClass()` to remove particular target element and style.
 
 ## Other functions
 
-- `.html()` to target properties of HTML tags: `$("h3").html("<em>Hello World!</em>")` to change the default `h3` HTML tag.
-- `.css()` to overwrite CSS styling rules: `$("#target1").css("background-color", "blue")` to change background color to blue for #target1.
-- `.prop()` to access properties of elements: `$("button").prop("disable", true)` to disable button.
-- `.remove()` to remove an HTML element: `$("#target4").remove()` to remove #target4 button.
-- `.appendTo()` to move an element: `$("#target4").appendTo("#left-well")` to move #target4 from `right-well` to the `left-well`.
-- `.clone()` to make copy of that element.
-- `.parent()` to access its parent's element: `$("#left-well").parent().css("background-color", "blue")` to access `<div>` and change its background color.
-- `.children()` to acess its children's element.
-- `.btn:nth-child(n)` to access a specific children: `$(".btn:nth-child(3)").addClass("animated bounce")` to access `.btn` third child.
-- `:odd()` and `:even()` to select position. Note that index `0` is odd and `1` is even: `$(".target:odd").addClass("animated shake")` to make #target2 (index 1), #target4 (index 3), and #target6 (index 5) shake.
+- **`.html()`** to target properties of HTML tags: `$("h3").html("<em>Hello World!</em>")` to change the default `h3` HTML tag.
+- **`.css()`** to overwrite CSS styling rules: `$("#target1").css("background-color", "blue")` to change background color to blue for #target1.
+- **`.prop()`** to access properties of elements: `$("button").prop("disable", true)` to disable button.
+- **`.remove()`** to remove an HTML element: `$("#target4").remove()` to remove #target4 button.
+- **`.appendTo()`** to move an element: `$("#target4").appendTo("#left-well")` to move #target4 from `right-well` to the `left-well`.
+- **`.clone()`** to make copy of that element.
+- **`.parent()`** to access its parent's element: `$("#left-well").parent().css("background-color", "blue")` to access `<div>` and change its background color.
+- **`.children()`** to acess its children's element.
+- **`.btn:nth-child(n)`** to access a specific children: `$(".btn:nth-child(3)").addClass("animated bounce")` to access `.btn` third child.
+- **`:odd()`** and **`:even()`** to select position. Note that index `0` is odd and `1` is even: `$(".target:odd").addClass("animated shake")` to make #target2 (index 1), #target4 (index 3), and #target6 (index 5) shake.
 
 ## Example code
 
