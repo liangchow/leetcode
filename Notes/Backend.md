@@ -68,15 +68,29 @@ For static rendering, add `path` module and HTML pages to `/public`:
 const express = require('express');
 const app = express();
 const path = require('path'); //import path module
+const port = 3000;
 
 app.use(express.static(path.join(__dirname, "/public")));
+app.use(express, json()); // We should expect to read json
 
 app.get("/", (req, res) => {
-    res.send("Hello World");
+    res.status(200).send("Hello World");
 });
 
-app.listen(3000, ()=>{
-    console.log("Server is running on 3000");
+app.post('/', (req, res) =>{
+	res.status(200).send({message: "where is your package?"})
+});
+
+app.put('/', (req, res) =>{
+
+});
+
+app.delete('/', (req, res) =>{
+
+});
+
+app.listen(port, ()=>{
+    console.log("Server is running on port: ${port}");
 })
 ```
 <!-- 
