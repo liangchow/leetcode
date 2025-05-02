@@ -51,13 +51,34 @@ Express is a Node.js framework for REST APIs. To start a project from scratch, f
 
 - **`npm init -y`**: To initializea a Node.js project. Create `package.json`.
 - **`npm i exress`**: To install Express.js.
+- **`npm i bcryptjs`**: To encrypt password and usernames.
+- **`npm i jsonwebtoken`**: To facilitate authentification system.
 - **`npm --save-dev nodemon`**: To install package in development dependency. Alternatively, in `package.json`, add **`"start": "node --watch server.js"`** to enable server auto-restarting on file saved.
 - **`npm i hbr express`**: To install handlebar package for <em>dynamic web rendering</em>.
 
 In the project folder,
+- Create new folders: `src`, `public`, `routes`, and `middleware`.
+- Create new `.js` files: See below.
 - Create a new file called `server.js`.
-- Create a script **`"dev": "nodemon server.js",`** in `package.json`.
-- Create a new folder called `routes`.
+- Create a script **`"dev": "nodemon --env-file=.env ./src/server.js",`** in `package.json`.
+- *NOTE*: For node.js v22, experimental features such nodemon and sqlite are included: **`"dev": "node --watch --env-file=.env --experimental-strip-types --experimental-sqlite ./src/server.js",`**.
+
+```
+project/
+|-- node_modules/
+|-- public/
+|-- src/
+|   |-- middleware/
+|	|	|-- authMiddleware.js
+|   |-- routes/
+|	|	|-- authRoutes.js
+|	|	|-- todoRoute.js
+|   |-- server.js
+|   |-- db.js
+|-- .env
+|-- todo-app.rest
+|-- package.json
+```
 
 ### CRUD-method: Create-post, Read-get, Update-put, and Delete-delete
 
