@@ -29,6 +29,7 @@ The `package.json` file is the center of any Node.js project or npm package. It 
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
+		"dev" : "nodemon server.js"
 	},
 	"repository": {
 		"type": "git",
@@ -46,18 +47,22 @@ The `package.json` file is the center of any Node.js project or npm package. It 
 ```
 ## Express.js
 
-In `package.json`, add:
+Express is a Node.js framework for REST APIs. To start a project from scratch, follow these steps:
 
-- **`"start": "node --watch server.js"`**: To enable server auto-restarting on file saved.
-- Or, install **`nodemon`** package.
-- Install **`npm i hbr express`** handlebar package for dynamic web rendering.
+- **`npm init -y`**: To initializea a Node.js project. Create `package.json`.
+- **`npm i exress`**: To install Express.js.
+- **`npm --save-dev nodemon`**: To install package in development dependency. Alternatively, in `package.json`, add **`"start": "node --watch server.js"`** to enable server auto-restarting on file saved.
+- **`npm i hbr express`**: To install handlebar package for <em>dynamic web rendering</em>.
 
-To create an Express.js, add the following:
+In the project folder,
+- Create a new file called `server.js`.
+- Create a script **`"dev": "nodemon server.js",`** in `package.json`.
+- Create a new folder called `routes`.
 
-```
-const express = require('express');
-const app = express();
-```
+Some useful functions:
+- **`app.use()`**: Add a new middleware to the app, e.g., error handling.
+- **`app.listen(port, () => console.log('Server is start on port: ${port}'))`**: Listen to port and console log port number.
+
 
 For static rendering, add `path` module and HTML pages to `/public`:
 
@@ -65,13 +70,15 @@ For static rendering, add `path` module and HTML pages to `/public`:
 // myApp.js
 // index.html --- static
 
-const express = require('express');
-const app = express();
-const path = require('path'); //import path module
-const port = 3000;
+const express = require('express')
+const app = express()
+const path = require('path') //import path module
+const port = 3000
 
+// MIDDLEWARE
 app.use(express.static(path.join(__dirname, "/public")));
 app.use(express, json()); // We should expect to read json
+app.use(require('cors')()) // Call the CORS function to make request on different domains
 
 app.get("/", (req, res) => {
     res.status(200).send("Hello World");
