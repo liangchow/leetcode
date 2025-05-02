@@ -59,10 +59,14 @@ In the project folder,
 - Create a script **`"dev": "nodemon server.js",`** in `package.json`.
 - Create a new folder called `routes`.
 
-Some useful functions:
-- **`app.use()`**: Add a new middleware to the app, e.g., error handling.
-- **`app.listen(port, () => console.log('Server is start on port: ${port}'))`**: Listen to port and console log port number.
+### CRUD-method: Create-post, Read-get, Update-put, and Delete-delete
 
+- **`app.use()`**: Add a new middleware to the app, e.g., error handling.
+- **`app.post()`**
+- **`app.get()`**
+- **`app.put()`**
+- **`app.delete()`**
+- **`app.listen(port, () => console.log('Server is start on port: ${port}'))`**: Listen to port and console log port number.
 
 For static rendering, add `path` module and HTML pages to `/public`:
 
@@ -70,36 +74,29 @@ For static rendering, add `path` module and HTML pages to `/public`:
 // myApp.js
 // index.html --- static
 
-const express = require('express')
-const app = express()
-const path = require('path') //import path module
-const port = 3000
+const express = require('express');
+const app = express();
+const path = require('path'); //import path module
+const port = 3000;
 
 // MIDDLEWARE
 app.use(express.static(path.join(__dirname, "/public")));
 app.use(express, json()); // We should expect to read json
-app.use(require('cors')()) // Call the CORS function to make request on different domains
+app.use(require('cors')()); // Call the CORS function to make request on different domains
 
 app.get("/", (req, res) => {
     res.status(200).send("Hello World");
 });
 
-app.post('/', (req, res) =>{
+app.post('/api/data', (req, res) =>{
 	res.status(200).send({message: "where is your package?"})
-});
-
-app.put('/', (req, res) =>{
-
-});
-
-app.delete('/', (req, res) =>{
-
 });
 
 app.listen(port, ()=>{
     console.log("Server is running on port: ${port}");
 })
 ```
+
 <!-- 
 For dynamic rendering, install **`hbr express`** module and 
  -->
