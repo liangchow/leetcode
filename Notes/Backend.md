@@ -62,10 +62,10 @@ In the project folder,
 ### CRUD-method: Create-post, Read-get, Update-put, and Delete-delete
 
 - **`app.use()`**: Add a new middleware to the app, e.g., error handling.
-- **`app.post()`**
-- **`app.get()`**
-- **`app.put()`**
-- **`app.delete()`**
+- **`app.post()`**: Create action, e.g., create a user.
+- **`app.get()`**: Get action, e.g., read data.
+- **`app.put()`**: Update action.
+- **`app.delete()`**: Delete action, e.g., delete a user.
 - **`app.listen(port, () => console.log('Server is start on port: ${port}'))`**: Listen to port and console log port number.
 
 For static rendering, add `path` module and HTML pages to `/public`:
