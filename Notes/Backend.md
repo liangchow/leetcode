@@ -83,13 +83,16 @@ project/
 ### CRUD-method: Create-post, Read-get, Update-put, and Delete-delete
 
 - **`app.use()`**: Add a new middleware to the app, e.g., error handling.
+- **`app.sendFile()`**: Send file, e.g., index.html.
 - **`app.post()`**: Create action, e.g., create a user.
 - **`app.get()`**: Get action, e.g., read data.
 - **`app.put()`**: Update action.
 - **`app.delete()`**: Delete action, e.g., delete a user.
-- **`app.listen(port, () => console.log('Server is start on port: ${port}'))`**: Listen to port and console log port number.
+- **`app.listen(port, () => {console.log('Server is start on port: ${port}')})`**: Listen to port and console log port number.
 
-For static rendering, add `path` module and HTML pages to `/public`:
+For static rendering, add `path` module and HTML pages to `../public`:
+
+- **`app.use(express.static(path.join(__dirname,"../public")))`**: Use to define where the public directory is.
 
 ```
 // myApp.js
@@ -101,7 +104,7 @@ const path = require('path'); //import path module
 const port = 3000;
 
 // MIDDLEWARE
-app.use(express.static(path.join(__dirname, "/public")));
+app.use(express.static(path.join(__dirname, "../public")));
 app.use(express, json()); // We should expect to read json
 app.use(require('cors')()); // Call the CORS function to make request on different domains
 
@@ -117,6 +120,34 @@ app.listen(port, ()=>{
     console.log("Server is running on port: ${port}");
 })
 ```
+
+### db.js
+```
+import { DatabaseSync } from 'node:sqlite'
+const db = new.DatabaseSync(':memory:')
+
+// Execute SQL statements from strings
+db.exec(`
+	CREATE TABLE user (
+		id INTEGER PRIMARY KEY AUTOINCREMENT, 
+		username TEXT UNIQUE,
+		password TEXT
+	)
+`)
+
+db.exec(`
+	CREATE TABLE todos (
+		id INTEGER PRIMARY KEY AUTOINCREMENT,
+		user_id INTEGER,
+		task TEXT,
+		completed BOOLEAN DEFAULT 0,
+		FOREIGN KEY(user_id) REFERENCES user(id)
+	)
+`)
+
+export default db
+```
+
 
 <!-- 
 For dynamic rendering, install **`hbr express`** module and 
