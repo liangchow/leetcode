@@ -5,6 +5,13 @@
 [Record Collection Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/record-collection)
 
 ```
+const records = {
+    2548: {albumTitle: "Slippery When Wet", artist: "Bon Jovi", tracks: ["Let It Rock", "You Give Love a Bad Name"]},
+    2467: {albumTitle: "1999", artist: "Price", tracks: ["1999", "Little Red Corvette"]},
+    2470: {artist: "Robert Palmer", tracks: []},
+    ...
+}
+
 function updateRecords(records, id, prop, value) {
   return records
 }
@@ -42,6 +49,24 @@ if ( value === "") {                    // i.
 [Profile Lookup Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
 
 ```
+const contacts = [
+    {firstName: "Akira", lastName: "Laine", likes: ["chocolate"]},
+    {firstName: "Harry", lastName: "Porter", },
+    ...
+]
+
 function lookUpProfile(name, prop) {
 }
 ```
+
+Conditions:
+- `name` should look up `firstName`, `prop` refers to any property in the array of object, `contacts`.
+- If both are true, return the value.
+- If `name` does not correspond to any contacts, return `No such contact`.
+- If `prop` does not exist, return `No such property`.
+
+Rewritten to:
+1. If `contacts[i].firstName === name`, look up `prop`.
+2. If `prop` not in `contacts[i]`, return `No such property`.
+3. If `contacts[i].firstName !== name`, return `No such contact`.
+
