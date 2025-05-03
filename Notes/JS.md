@@ -37,3 +37,31 @@ Some basic operations to objects are:
 - Modify object value: `character.age = 20` to update age from `25` to `20`. 
 - Delete object properties: `delete character.human`
 
+## Array Basic Methods
+
+- **`push()`**: Append data to end of an array, e.g., `[1,2,3].push(4) = [1,2,3,4]`.
+- **`pop()`**: Remove the last element in an array, e.g., `[1,2,3].pop() = 3`.
+- **`unshift()`**: Append data to beginning of an array, e.g., `[1,2,3].push(0) = [0,1,2,3]`.
+- **`shift()`**: Remove the first element in an array, e.g., `[1,2,3].shift() = 1`.
+
+## Escape quote:
+
+| Code   | Output          |
+| ------ | --------------- |
+| `\'`   | single quote    |
+| `\"`   | double quote    |
+| `\\`   | backslash       |
+| `\n`   | newline         |
+| `\t`   | tab             |
+| `\r`   | carriage return |
+| `\b`   | backspace       |
+| `\f`   | form feed       |
+
+```
+// Example
+const myString = "FirstLine\n\t\\SecondLine"
+
+// Returns:
+FirstLine
+    \SecondLine
+```
