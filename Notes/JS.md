@@ -201,7 +201,7 @@ Article: [Javascript Short-Circuit Conditionals](https://medium.com/@amaliesmidt
 
 ### Recursive
 
-A concept that a function can be expressed in terms of itself. It needs a *base case* for recursive function to stop calling itself. If a function is written correctly, eventually the *base case* will be reached. The basic formula for recursive is: `fn(n-1) ***operator*** (n-1)`.
+A concept that a function can be expressed in terms of itself. It always start with a *base case* for recursive function to stop calling itself. If a function is written correctly, eventually the *base case* will be reached. The basic formula for recursive is: `fn(n-1) ***operator*** (n-1)`.
 
 ```
 // Recursive function to return the sum of first n elements of an array, arr
@@ -248,4 +248,5 @@ function countdown(n){
   }
 }
 ```
-Read more about [recursion](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-use-recursion-to-create-a-countdown/305925/2)
+Read more about [recursion](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-use-recursion-to-create-a-countdown/305925/2) <br>
+Watch video about [recursion](https://www.youtube.com/watch?v=LteNqj4DFD8&t=584s)
