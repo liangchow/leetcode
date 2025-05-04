@@ -66,7 +66,42 @@ Conditions:
 - If `prop` does not exist, return `No such property`.
 
 Rewritten to:
-1. If `contacts[i].firstName === name`, look up `prop`.
+1. If `contacts[i].firstName === name`, look up `prop` and return value.
 2. If `prop` not in `contacts[i]`, return `No such property`.
 3. If `contacts[i].firstName !== name`, return `No such contact`.
 
+```
+// Approach
+
+for (let i=0; i < contacts.length; i++){    // i. loop through every object in the array
+
+    if (contacts[i].firstName === name){
+        if (prop in contacts[i]){
+            return contacts[i].[prop]       // ii. start with 1 
+        }
+            return "No such property"       // 2. if not property in the array
+    }
+}
+return "No such contact"                    // iii. 3. name is not even in the array 
+
+```
+### 3. Recursive Exercise
+
+[Use Recursion to Create a Range of Numbers Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-range-of-numbers)
+
+```
+// Approach
+// Similar to countup(n), except with an additional "startNum" variable. Use "startNum" as a criteria for exit condition.
+
+function rangeOfNumbers(startNum, endNum){
+    if (starNum > endNum){      // startNum cannot be greater than endNum, so this is the exit condition
+        return []
+    } else {
+        const countArray = rangeOfNumbers(startNum, endNum-1)
+        countArray.push(endNum)
+        return countArray
+    }
+}
+
+// rangeOfNumbers(6,9) return [6,7,8,9]
+```

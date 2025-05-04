@@ -124,6 +124,19 @@ FirstLine
     \SecondLine
 ```
 
+## Ternary Operator
+
+A one-line `if/else` statement in syntax `a ? b : c`, where `a` is the condition, `b` is the result when `true` and `c` is false.
+
+```
+// Check if a number if negative, positive, or zero
+
+function checkSign(num){
+  return (num < 0) ? "negative" : (num > 0) ? "positive" : "zero"
+}
+
+```
+
 ## Short-Circuit Evaluation
 
 Logical operators `&&` and `||` evaluate from left to right and **short-circuit**, meaning that if left condition is met, it straight up return the result. 
@@ -149,15 +162,14 @@ false || false       returns false --> It has to return the second operand
 user.online = true
 const greet = () => cosole.log("Hello! You are online.")
 
-
 # Code 1
 if (user.online){
   greet()
 }
 
 # Code 2
-# If user.online is true, it doesn't short-circuit the second operand and HAS to return greet(). If user.online is false, it shorts greet() and never returns.
-(user.online) && greet()
+# If user.online is true, it doesn't short-circuit the second operand and HAS to return greet(). If user.online is false, it shorts and never returns greet() .
+user.online && greet()
 
 // Hello! You are online.
 // Hello! You are online.
@@ -173,10 +185,67 @@ if (!user.online){
 
 # Code 2
 # If user.online is false, it HAS to return greet().
-(user.online || greet())
+(user.online || greet()) 
 
 // Hello! You are online.
 // Hello! You are online.
 ```
+Other uses:
+
+1. Default values **`const name = inputName || 'Guest'`**: If `inputName` is empty or null, name will default to `Guest`.
+2. Guarding function calls **`user && user.sendMessage('Hello)`**: This ensures `sendMessage` only if `user` exists.
+3. Lazy evaluation **`const res = actionA && actionB()`**: If `actionA` is false, then `actionB()` is skipped, saving resources.
+
 
 Article: [Javascript Short-Circuit Conditionals](https://medium.com/@amaliesmidth/javascript-short-circuit-conditionals-6606bdeaa30d)
+
+### Recursive
+
+A concept that a function can be expressed in terms of itself. It needs a *base case* for recursive function to stop calling itself. If a function is written correctly, eventually the *base case* will be reached. The basic formula for recursive is: `fn(n-1) ***operator*** (n-1)`.
+
+```
+// Recursive function to return the sum of first n elements of an array, arr
+
+function sum(arr, n){
+  if (n <= 0) {         // base case
+    return 0
+  } else {
+    return sum(arr, n-1) + arr[n-1]
+  }
+}
+
+// Recursive to multiply
+
+function multiply(arr, n) {
+  if (n <= 0) {
+    return 1;
+  } else {
+    return multiply(arr, n-1) * arr[n-1];
+  }
+}
+
+// Recursive to count up. countup(5) returns [1,2,3,4,5]
+
+function countup(n){
+  if (n < 1){
+    return []
+  } else {
+    const countArray = countup(n-1)   // for n=5
+    countArray.push(n)
+    return countArray
+  }
+}
+
+//Recursive to count down. countdown(5) returns [5,4,3,2,1]
+
+function countdown(n){
+  if (n < 1){
+    return []                           // start with an exit condition -- a base case. return empty array if n < 1
+  } else {
+    const countArray = countdown(n-1)   // at n=5, we expect result to be [4,3,2,1]
+    countArray.unshift(n)               // last step to add "5" at the beginning of [4,3,2,1]. Similarly, at n=4, add "4" to [3,2,1]
+    return countArray                   // return [5,4,3,2,1]...
+  }
+}
+```
+Read more about [recursion](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-use-recursion-to-create-a-countdown/305925/2)
