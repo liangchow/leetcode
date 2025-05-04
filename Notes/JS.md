@@ -93,14 +93,34 @@ function updateRecords(records, id, prop, value) {
 
 ```
 
-
-
-## Array Basic Methods
+## Array: Basic Manipulation Methods
 
 - **`push()`**: Append data to end of an array, e.g., `[1,2,3].push(4) = [1,2,3,4]`.
 - **`pop()`**: Remove the last element in an array, e.g., `[1,2,3].pop() = 3`.
 - **`unshift()`**: Append data to beginning of an array, e.g., `[1,2,3].push(0) = [0,1,2,3]`.
 - **`shift()`**: Remove the first element in an array, e.g., `[1,2,3].shift() = 1`.
+- **`splice(startIndex,numToRemov,toAdd)`**: Remove multiple or single element inside an array, e.g., `[10,11,12,12,15].splice(3,1, 13, 14) = [10,11,12,13,14,15]`. Starts from index-3 and remove 1 number, which is 12, from the array: `[10,11,12,15]`. Then add 13 and 14 to that position.
+- **`slice(startIndex, endIndex)`**: Extract a given number of array, e.g., `[1,2,3,4,5].slice(1,3) = [2,3]`
+- **`...`**: Spread operator to copy or combine an array, e.g., `let thisArray = [1,2,3]; let thatArray = [...thisArray]`.
+- **`indexOf()`**: Check presence of an element. Return `-1` if non-exists, e.g., `['apple','orange',kiwi'].indexOf('kiwi') = 2`
+
+```
+// Build a filter function by using indexOf() to check if something is true or false
+
+function filter(arr, elem):
+  let newArray = []
+  for (let i=0; i<arr.length; i++){
+    if (arr[i].indexOf(elem) == -1){    // push only if elem doesn't exist in the array
+      newArray.push(arr[i])
+    }
+  }
+
+  return newArray
+
+arr = [[10,8,3], [14,6,23], [3,18,6]]
+filter( arr, 18)
+// returns [[10,8,3], [14,6,23]]
+```
 
 ## Escape quote
 

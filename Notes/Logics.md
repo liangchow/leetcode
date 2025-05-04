@@ -89,6 +89,8 @@ return "No such contact"                    // iii. 3. name is not even in the a
 
 [Use Recursion to Create a Range of Numbers Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-range-of-numbers)
 
+Use recursive to return an array of integers which begins with `startNum` and ends with `endNum`. The starting number will always be less than or equal to the ending number.
+
 ```
 // Approach
 // Similar to countup(n), except with an additional "startNum" variable. Use "startNum" as a criteria for exit condition.
