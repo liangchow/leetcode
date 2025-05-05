@@ -107,3 +107,93 @@ function rangeOfNumbers(startNum, endNum){
 
 // rangeOfNumbers(6,9) return [6,7,8,9]
 ```
+
+### 4. Use Caution When Reinitializing Variables Inside a Loop
+
+[Use Caution When Reinitializing Variables Inside a Loop Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/debugging/use-caution-when-reinitializing-variables-inside-a-loop)
+
+Fix the code so that zeroArray(3,2) returns `[[0,0], [0,0], [0,0]]`
+```
+// Code
+
+function zeroArray(m, n) {
+  let newArray = [];
+  let row = [];
+
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
+      row.push(0);
+    }
+    newArray.push(row);
+  }
+  return newArray;
+}
+
+let matrix = zeroArray(3, 2);
+console.log(matrix);
+
+// return [ [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]]
+```
+
+### 5. Reverse a String
+(Reverse a String Link)[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/reverse-a-string]
+
+Reverse `str`. For example, `'hello'` becomes `'olleh'`. `reverseString()` should return a string.
+
+```
+// Approach
+
+function reverseString(str){
+    const res = ""
+
+    for (let i = str.length-1; i >= 0; i--){
+        res += str[i]
+    }
+}
+```
+
+### 6. Factorialize a Number
+(Factorialize a Number Link)[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/factorialize-a-number]
+
+Return the factorial of the provided integer. For example, `5! = 5*4*3*2*1 = 120`. `factorialize(0)` should return `1`.
+
+```
+//Approach
+
+factorialize(num){
+    if (num == 0){
+        return 1
+    } else {
+        return factoriallize(num-1)*num
+    }
+}
+```
+### 7. Find the Longest Word in a String
+
+(Find the Longest Word in a String Link) [https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/find-the-longest-word-in-a-string]
+
+Return the length of the longest word in a given sentence. It should return a number.
+
+```
+// Approach
+
+function findLongestWordLength(str) {
+    let word = str.split(' ')   // split sentence to words by a space ' '
+    let maxLength = 0
+
+    for (i=0; i < str.length; i++){
+        if (word[i].length > maxLength){
+            maxLength = word[i].length
+        }
+    }
+
+    return maxLength
+}
+
+function findLongestWordLength(str) {
+
+    return Math.max(...arr.split(' ').map(word => word.length))
+}
+```
