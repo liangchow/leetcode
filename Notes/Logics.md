@@ -138,7 +138,7 @@ console.log(matrix);
 ```
 
 ### 5. Reverse a String
-(Reverse a String Link)[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/reverse-a-string]
+[Reverse a String Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/reverse-a-string)
 
 Reverse `str`. For example, `'hello'` becomes `'olleh'`. `reverseString()` should return a string.
 
@@ -155,7 +155,7 @@ function reverseString(str){
 ```
 
 ### 6. Factorialize a Number
-(Factorialize a Number Link)[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/factorialize-a-number]
+[Factorialize a Number Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/factorialize-a-number)
 
 Return the factorial of the provided integer. For example, `5! = 5*4*3*2*1 = 120`. `factorialize(0)` should return `1`.
 
@@ -172,7 +172,7 @@ factorialize(num){
 ```
 ### 7. Find the Longest Word in a String
 
-(Find the Longest Word in a String Link) [https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/find-the-longest-word-in-a-string]
+[Find the Longest Word in a String Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/find-the-longest-word-in-a-string)
 
 Return the length of the longest word in a given sentence. It should return a number.
 
@@ -195,5 +195,121 @@ function findLongestWordLength(str) {
 function findLongestWordLength(str) {
 
     return Math.max(...arr.split(' ').map(word => word.length))
+}
+```
+
+### 8. Return Largest Numbers in Arrays
+
+[Return Largest Numbers in Arrays Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/return-largest-numbers-in-arrays)
+
+Return an array consisting of the largest number from each provided sub-array. 
+
+```
+// Approach
+
+function largestOfFour(arr){
+    let res = []
+
+    for (let i=0; i<arr.length; i++){
+
+        let max = arr[i][0]     // initialize max
+
+        for (let j=1; j<arr[i].length;j++){
+            if (arr[i][j] > max){
+                max = arr[i][j]
+            }
+        }
+
+    res[i] = max
+    }
+return res
+}
+```
+
+### 9. Confirm the Ending
+
+[Confirm the Ending Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/confirm-the-ending)
+
+Check if a string (first argument, `str`) ends with the given target string (second argument, `target`).
+
+```
+// Approach
+
+function confirmEnding(str, target){
+
+    const ext = str.slice(str.length-target.length, str.length)
+    return ext == target ? true : false
+}
+
+function confirmEnding(str, target){
+    return str.slice(str.length-target.length) === target
+}
+
+function confirmEnding(str, target){
+    return str.slice(-target.length) === target
+}
+
+```
+
+### 10. Repeat a String Repeat a String
+
+[Repeat a String Repeat a String Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/repeat-a-string-repeat-a-string)
+
+Repeat a given string `str` (first argument) for `num` times (second argument).
+
+```
+// Approach
+
+function repeatStringNumTimes(str, num){
+    let res = ''
+    for (let i=0; i<num; i++){
+        res += str
+    }
+    return res
+}
+```
+
+### 11. Truncate a String
+
+[Truncate a String Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/truncate-a-string)
+
+Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a `...` ending.
+
+```
+// Approach
+
+function truncateString(str, num) {
+    if (num >= str.length){
+        return str
+    } else {
+        return str.slice(0,num) + "..."
+    }
+}
+
+function truncateString(str, num) {
+    if (str.length > num) {
+        return str.slice(0, num) + "...";
+    } else {
+        return str;
+    }
+}
+```
+
+### 12. Finders Keepers
+
+[Finders Keepers Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/finders-keepers)
+
+Create a function that looks through an array `arr` and returns the first element in it that passes a 'truth test'. This means that given an element `x`, the 'truth test' is passed if `func(x)` is `true`. If no element passes the test, return `undefined`.
+
+```
+// Approach
+
+function findElement(arr, func) {
+
+  for (let i=0; i<arr.length;i++){
+    if (func(arr[i])){
+      return arr[i]
+    }
+  }
 }
 ```
