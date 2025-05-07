@@ -114,7 +114,7 @@ function rangeOfNumbers(startNum, endNum){
 
 Fix the code so that zeroArray(3,2) returns `[[0,0], [0,0], [0,0]]`
 ```
-// Code
+// Problem: Fix the code so that zeroArray(3,2) return the correct result.
 
 function zeroArray(m, n) {
   let newArray = [];
