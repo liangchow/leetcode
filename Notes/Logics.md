@@ -334,3 +334,22 @@ function booWho(bool) {
 }
 
 ```
+
+### 14. Title Case a Sentece
+
+[Title Case a Sentece Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/title-case-a-sentence)
+
+Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
+
+```
+// Approach
+
+function titleCase(str) {
+  return str.
+    toLowerCase().
+    split(' ').
+    map(cap => cap.charAt(0).toUpperCase()+cap.slice(1)).
+    join(' ')
+}
+
+```
