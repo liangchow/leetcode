@@ -353,3 +353,23 @@ function titleCase(str) {
 }
 
 ```
+
+### 15. Slice and Splice
+
+[Slice and Splice Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/slice-and-splice)
+
+You are given two arrays and an index. Copy each element of the first array into the second array, in order.
+Begin inserting elements at index `n` of the second array. Return the resulting array. The input arrays should remain the same after the function runs.
+
+```
+// Approach
+
+function titleCase(str) {
+  return str.
+    toLowerCase().
+    split(' ').
+    map(cap => cap.charAt(0).toUpperCase()+cap.slice(1)).
+    join(' ')
+}
+
+```
