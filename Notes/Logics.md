@@ -420,3 +420,43 @@ function getIndexToIns(arr, num) {
 }
 
 ```
+
+### 18. Mutations
+
+[Mutations Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/mutations)
+
+Return `true` if the string in the first element of the array contains all of the letters of the string in the second element of the array.
+
+```
+// Approach
+
+function mutation(arr) {
+  let str1 = arr[0].toLowerCase()
+  let str2 = arr[1].toLowerCase()
+
+  for (let i=0; i<str2.length; i++){
+    if (str1.indexOf(str2[i]) === -1) return false
+  }
+
+  return true;
+}
+```
+### 19. Chunky Monkey
+
+[Chunky Monkey Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/chunky-monkey)
+
+Write a function that splits an array (first argument) into groups the length of `size` (second argument) and returns them as a two-dimensional array.
+
+```
+// Approach
+
+function chunkArrayInGroups(arr, size) {
+  let res =[]
+
+  for (let i=0; i<arr.length; i+=size){
+    res.push(arr.slice(i,size+i))
+  }
+
+  return res
+}
+```
