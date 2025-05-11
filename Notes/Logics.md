@@ -390,3 +390,33 @@ function bouncer(arr) {
   return filter;
 }
 ```
+
+### 17. Where do I belong
+
+[where do I BelongLink](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/where-do-i-belong)
+
+`getIndexToIns([20,3,5], 19)` should return `2` because once the array has been sorted it will look like `[3,5,20]` and 19 is less than 20 (index 2) and greater than 5 (index 1).
+
+Hint: `sort()` in Javascript is different from Python. Look for a way to sort the number increasingly. <br>
+Hint: Check edge case where `num` is greater than any number in the given `array`. 
+
+```
+// Approach
+function getIndexToIns(arr, num) {
+  const sorted = arr.sort((a,b) => a-b)
+
+  for (let i=0; i<sorted.length;i++){
+    if (sorted[i] >= num) return i
+  }
+  return arr.length
+}
+
+// Smarter Approach
+function getIndexToIns(arr, num) {
+  return arr
+  .concat(num)
+  .sort((a,b)=>a-b)
+  .indexOf(num)
+}
+
+```
