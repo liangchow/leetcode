@@ -364,12 +364,10 @@ Begin inserting elements at index `n` of the second array. Return the resulting 
 ```
 // Approach
 
-function titleCase(str) {
-  return str.
-    toLowerCase().
-    split(' ').
-    map(cap => cap.charAt(0).toUpperCase()+cap.slice(1)).
-    join(' ')
+function frankenSplice(arr1, arr2, n) {
+  let s2 = arr2.slice()     // Copy a new array using slice()
+  s2.splice(n,0,...arr1)    // Start at index-1, remove nothing, splice in arr1
+  return s2
 }
 
 ```
