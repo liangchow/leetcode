@@ -121,6 +121,31 @@ arr = [[10,8,3], [14,6,23], [3,18,6]]
 filter( arr, 18)
 // returns [[10,8,3], [14,6,23]]
 ```
+### Map, Filter, and Reduce
+
+`.map()`
+```
+// Example 1:
+
+const users = [
+  { name: 'John', age: 34 },
+  { name: 'Amy', age: 20 },
+  { name: 'camperCat', age: 10 },
+]
+
+const names = users.map(user => user.name)
+console.log(names)
+
+// return
+['John', 'Amy', 'camperCat']
+
+```
+
+
+`.reduce()`
+
+
+
 
 ## Escape quote
 
