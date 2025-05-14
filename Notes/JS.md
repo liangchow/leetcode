@@ -123,7 +123,8 @@ filter( arr, 18)
 ```
 ### Map, Filter, and Reduce
 
-`.map()`
+- **`.map()`**: Iterates over each item in an array and returns a new array containing the results of calling the callback function on each element. It does this without mutating the original array.
+
 ```
 // Example 1:
 
@@ -139,6 +140,16 @@ console.log(names)
 // return
 ['John', 'Amy', 'camperCat']
 
+const item = users.map(user => ({
+  firstname: user["name"],
+  actualage: user["age]
+}))
+
+// return
+[{"firstname": "John", "actualage": 34},
+ {"firstname": "Amy", "actualage": 20},
+ {"firstname": "camperCat", "actualage": 10},
+]
 ```
 
 
