@@ -460,3 +460,43 @@ function chunkArrayInGroups(arr, size) {
   return res
 }
 ```
+
+### 20. Use the Reduce Method to Analyze Data
+
+[Use the Reduce Method to Analyze Data Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-reduce-method-to-analyze-data)
+
+Use `reduce` to find the average IMDB rating of the movies directed by `Christopher Nolan`. Recall from prior challenges how to `filter` data and `map` over it to pull what you need. You may need to create other variables, and return the average rating from getRating function. Note that the rating values are saved as strings in the object and need to be converted into numbers before they are used in any mathematical operations.
+
+```
+const watchList = [
+  {"Title": "Inception",
+    "Year": "2010",
+    "Director": "Christopher Nolan",
+    "imdbRating": "8.8"
+  },
+  {"Title": "Interstellar",
+    "Year": "2014",
+    "Director": "Christopher Nolan",
+    "imdbRating": "8.6"
+  },
+  {"Title": "Avatar",
+    "Year": "2009",
+    "Director": "James, Cameron",
+    "imdbRating": "7.9"
+  },
+]
+
+// Approach
+
+function getRating(watchList){
+  
+  let averageRating = watchList
+            .filter(movie => movie.Director == "Christopher Nolan")
+            .map(movie => Number(movie.imdbRating))
+            .reduce((sumOfRating, rating) => sumOfRating+rating, 0)
+
+  let nolanMovies = watchList.filter(movie => movie.Director == "Christopher Nolan").length
+
+  return averageRating / nolanMovies;
+}
+```
