@@ -121,7 +121,7 @@ arr = [[10,8,3], [14,6,23], [3,18,6]]
 filter( arr, 18)
 // returns [[10,8,3], [14,6,23]]
 ```
-### Map, Filter, Reduce, and other Functions
+## Map, Filter, Reduce, and other Functions
 
 - **`every()`**: Check if **every** element passes a particular test. It returns a Boolean value - true if all values meet the criteria, false if not, e.g., `[1,5,8,0,10,11].every( val => val < 10)` returns `false`.
 - **`some()`**: Check if **any** element passes a particular test. It returns a Boolean value - true if any of the values meet the criteria, false if not, e.g., `[10,50,8,220,110,11].some( val => val < 10)` returns `true`.
@@ -276,7 +276,31 @@ Other uses:
 
 Article: [Javascript Short-Circuit Conditionals](https://medium.com/@amaliesmidth/javascript-short-circuit-conditionals-6606bdeaa30d)
 
-### Recursive
+## Callback Function
+
+JavaScript runs sequentially. However, something we want to run code after something else or not sequentially. This is call asynchrounous programming. Callbacks make sure that a function is not ran until a task is completed but will run right after the task has completed.
+
+```
+// Example 1
+// The message function is called after 3 seconds. So the messge function is a callback function.
+
+const message = function (){
+  console.log("This message is shown after 3 secs")
+}
+setTimeOut(message, 3000)
+
+// Example 2
+// Define a function inside setTimeOut()
+
+setTimeout(() => {
+  console.log("This message is shown after 3 secs")
+}, 3000)
+
+```
+
+Article: [JS Callback Functions-What and How to Use](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
+
+## Recursive
 
 A concept that a function can be expressed in terms of itself. It always start with a *base case* for recursive function to stop calling itself. If a function is written correctly, eventually the *base case* will be reached. The basic formula for recursive is: `fn(n-1) ***operator*** (n-1)`.
 
