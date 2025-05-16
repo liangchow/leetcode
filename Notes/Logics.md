@@ -517,3 +517,22 @@ function squareList(arr){
             .map(sq => sq**2)
 }
 ```
+
+### 22. Sum All Numbers in a Range
+
+[Sum All Numbers in a Range Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range)
+
+For example, `sumAll([4,1])` should return `10` because sum of all the numbers: `4+3+2+1 = 10`.
+
+```
+function sumAll(arr){
+  let sorted = arr.sort((a,b) => a-b)   // sort this so that given array: [min, max]
+  let res = 0
+
+  for (let i=sorted[0]; i <= sorted[1]; i++){
+    res += i
+  }
+  return res
+}
+
+```
