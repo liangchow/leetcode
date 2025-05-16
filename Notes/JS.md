@@ -121,9 +121,12 @@ arr = [[10,8,3], [14,6,23], [3,18,6]]
 filter( arr, 18)
 // returns [[10,8,3], [14,6,23]]
 ```
-### Map, Filter, Reduce, and Sort
+### Map, Filter, Reduce, and other Functions
 
-- **`.map()`**: Iterates over each item in an array and returns a new array containing the results of calling the callback function on each element. It does this without mutating the original array.
+- **`every()`**: Check if every element passes a particular test. It returns a Boolean value - true if all values meet the criteria, false if not, e.g., `[1,5,8,0,10,11].every( val => val < 10)` returns `false`.
+- **`some()`**: Check if any element passes a particular test. It returns a Boolean value - true if any of the values meet the criteria, false if not, e.g., `[10,50,8,220,110,11].some( val => val < 10)` returns `true`.
+
+- **`map()`**: Iterates over each item in an array and returns a new array containing the results of calling the callback function on each element. It does this without mutating the original array.
 
 ```
 // Example 1:
@@ -153,9 +156,9 @@ const item = users.map(user => ({
 ```
 
 
-- **`.reduce()`**:
+- **`reduce()`**:
 
-- **`.sort()`**: Sorts the elements of an array according to the callback function by Unicode point value. If `compareFunction(a,b)` return a value less than 0 for two elements a and b, then a will come before b. If values a and b are greater than 0, then b comes before a. If a and b values equal to zero, then a and b remain unchanged.
+- **`sort()`**: Sorts the elements of an array according to the callback function by Unicode point value. If `compareFunction(a,b)` return a value less than 0 for two elements a and b, then a will come before b. If values a and b are greater than 0, then b comes before a. If a and b values equal to zero, then a and b remain unchanged.
 
 ```
 // Ascending
