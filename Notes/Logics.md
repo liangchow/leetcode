@@ -517,7 +517,7 @@ function squareList(arr){
             .map(sq => sq**2)
 }
 ```
-
+😍
 ### 22. Sum All Numbers in a Range
 
 [Sum All Numbers in a Range Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range)
