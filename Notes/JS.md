@@ -1,5 +1,24 @@
 # JavaScript Notes
 
+## ES6
+Importing and exporting functions. If `export default` is used, a `{}` is not needed for importing the functions.
+
+```
+// Example 1: export
+
+import { Map } from  './Map'
+...
+export const Map = (props) => {...}
+
+
+// Example 2: export default
+
+import Map from  './Map'
+...
+const Map = (props) => {...}
+export default Map
+```
+
 ## Objects
 Objects are collections of key-value pairs, i.e., dictionary in Python. The object `data` below contains three properties (or *keys*): player, fightingStyle, hair color, age, human, costume color. Each *key* has a *value*.
 
