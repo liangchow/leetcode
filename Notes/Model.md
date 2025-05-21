@@ -1,0 +1,22 @@
+# Models
+
+## Agglomerative Clustering (Agglo-clustering)
+
+### Motivation
+In Hudson (2023) disseration, they used K-means and Gaussian mixture clustering models on two CPT variables: `Ic` and `qc1Ncs`. K-means and Gaussian mixture model clustering result in grouping issue, which non-contiguous data is assigned to the same cluster despite spatial separation, i.e., a clearly different lower sublayer is clustered as the upper sublayer with different soil properties. One way to deal with this is to include `depth` as another variable. To overcome this problem, they used agglomerative clustering that limits clustering using distance between points (Nielsen, 2016). For ordered data, the nearest neighbor matrix is tri-diagonal with ones on the diagonal and the two adjacent diagonals, and zeros elsewhere, forcing the clusters to be contiguous. The algorithm then clusters data by minimizing the within-cluster variance for the total number of cluster specified. Some clusters clearly correspond to transition zones (e.g., the cluster beginning at 10m depth) while others clearly belong within a stratum (the cluster immediately below the previously mentioned transition layer).
+
+### Model Evaluations
+Success of model depends on the `number of cluster specified`, which is unknown because each CPT sounding require different number of clusters, due to `total depth` and `spatial variability`. Selecting the optimal number of cluster must: (i) increase number of cluster reduces within-cluster variance, and (ii) larger number of clusters may overfit the model. The optimal number of cluster should have small variance.
+
+In agglo-clustering, a distortion score `Jd` is used to identify the optimal number of cluster. `Jd` is defined for two-standardize variable case over number of data points `N`:
+
+```
+Jd = Sum((q-mean,q)**2 + (Ic - mean,Ic)**2) / Sum(q**2 + Ic**2) 
+```
+`Jd` decreases as  the number of cluster `K` increases, and `K=0 when K=N` because every point is its own cluster and numerator is zero. Therefore, minimizing `Jd` doesn't work, but rather aim to reduce `Jd` while retaining the smallest possible `K`. 
+
+Now, a cost function `Jt` comes into play to penalize the average layer thickness. The average thickness `t,avg = z,max / K`, where `z,max` is the total depth of CPT. If pre-drilling is considered, the pre-drilled data points should be zero or NaN and be omitted in `z,max`. The purpose of `Jt` is to  
+
+```
+Jt = 0.2*(beta/t,avg)**3 = 0.2*(beta* (K/z,max))**3
+```
