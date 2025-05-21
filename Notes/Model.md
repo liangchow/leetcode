@@ -25,4 +25,11 @@ J = wd*Jd + wt*Jt
 ```
 
 ### Model Evaluations: Elbow and min(J)
-The elbow method graphically interprets a plot of `Jd vs. K`, which has a negative curvature over full range of `K` but flattens as `K` increases. This is a subjective method, but Hudson (2023) uses the Yellowbrick (Bengfort et al. 2022) python package to identify the point of maximum curvature of the `Jd vs. K` curve and assigs that optimum number of layers (clusters) or `K`. The silhouette method (Bengfort et al. 2022)   
+The elbow method graphically interprets a plot of `Jd vs. K`, which has a negative curvature over full range of `K` but flattens as `K` increases. This is a subjective method, but Hudson (2023) uses the Yellowbrick (Bengfort et al. 2022) python package to identify the point of maximum curvature of the `Jd vs. K` curve and assigs that optimum number of layers (clusters) or `K`. The silhouette method (Bengfort et al. 2022) is also often used to identify optimal number of cluster. This method produces similar results to the elbow method. Another method is to simply look for `min(J)`. 
+
+Trying these two methods out, the author concluded that `min(J)` method gives better result........
+
+Still, they used both the elbow and `min(J)` methods in performing CPT layerings in all 272+ soundings.
+They author futher explained that `t,avg` should be independent of `z,max`. When plotting `t,avg vs. z,max` for both elbow and `min(J)` methods, `min(J)` shows nearly zero correlation (good! independent) as opposed to elbow shows a positive correlation (bad. dependent). 
+
+### Conclusion
