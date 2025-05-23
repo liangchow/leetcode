@@ -14,7 +14,7 @@
 
 ```
 app
-|-- api\hello
+|-- api\users
 |   |-- route.js        // API endpoint: first approach
 |-- posts
 |   |-- [postId]        // Dynamic postID
@@ -39,7 +39,7 @@ Next.js provides three choices for data fetching.
 
 ## API Endpoints
 
-Next.js simplifies backend development like those in Express.js. The first approach is to create a folder route `api\hello` in the app directory. The second approach is to create a direct route handle within the app directory itself with a new file `route.js`. These two cannot interfer. "They" recommend the first approach to distinguish between front-end and back-end applications with the folder naming convention.
+Next.js simplifies backend development like those in Express.js. The first approach is to create a folder route `api\users` in the app directory. The second approach is to create a direct route handle within the app directory itself with a new file `route.js`. These two cannot interfer. "They" recommend the first approach to distinguish between front-end and back-end applications with the folder naming convention.
 
 ```
 // Next.js supports the following HTTP methods:
@@ -53,10 +53,49 @@ Next.js simplifies backend development like those in Express.js. The first appro
 7. **OPTIONS**: Retrieve the supported HTTP methods and other communication options for a resource.
 
 
-// Example:
+// Example: api\users > route.js
+// http://localhost:3000/api/users
+
 export async function GET(request){
-    return new Response('Hello, Next.js!')
+    // Handle GET request for /api/users
+    // Retrieve users from the database or any data source
+    const users = [
+        {id: 1, name: 'John'},
+        {id: 2, name: 'Jane'},
+        {id: 3, name: 'Bob'}
+    ]
+
+    // Send the users as a response
+    return new Response('JSON.stringify(users)')
 }
+```
+## SEO and Metadata
+Next.js let you define Metadata in two ways: static and dynamic.
+
+```
+// Static
+
+export const metadata = {
+    title: 'Home',
+}
+
+// Output:
+// <head>
+//      <title>Home</title>
+// <head>
+```
+```
+// Dynamic
+
+export async function generateMetadata({ params, searchParams }){
+    const product = await.getProduct(params, id)
+    return { title: product.title }
+}
+
+// Output:
+// <head>
+//      <title>My Unique Product</title>
+// <head>
 ```
 
 
