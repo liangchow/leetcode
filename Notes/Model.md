@@ -1,6 +1,7 @@
 # Models
 
 ## Agglomerative Clustering
+A hierarchial clustering type based on bottom-up approach of tree formation. Initially, every data point is a cluster. A 'distance matrix' is created to form the distances between each data point.
 
 ### Motivation
 In Hudson (2023) disseration, they used K-means and Gaussian mixture clustering models on two CPT variables: `Ic` and `qc1Ncs`. K-means and Gaussian mixture model clustering result in grouping issue, which non-contiguous data is assigned to the same cluster despite spatial separation, i.e., a clearly different lower sublayer is clustered as the upper sublayer with different soil properties. One way to deal with this is to include `depth` as another variable. To overcome this problem, they used agglomerative clustering that limits clustering using distance between points (Nielsen, 2016). For ordered data, the nearest neighbor matrix is tri-diagonal with ones on the diagonal and the two adjacent diagonals, and zeros elsewhere, forcing the clusters to be contiguous. The algorithm then clusters data by minimizing the within-cluster variance for the total number of cluster specified. Some clusters clearly correspond to transition zones (e.g., the cluster beginning at 10m depth) while others clearly belong within a stratum (the cluster immediately below the previously mentioned transition layer).
