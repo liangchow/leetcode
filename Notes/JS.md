@@ -226,17 +226,18 @@ let terrier = new Dog('Binks', 'White')
 
 ```
 
-`Prototype` can be used to reduce duplicate code.
+`Prototype` is like the recipe for creating an object.
 ```
-function Dog(name) {
-  this.name = name;
+function Animal() { }
+
+Animal.prototype.eat = function() {
+  console.log("nom nom nom")
 }
 
-Dog.prototype.numLegs = 4;
+function Bird() { }
 
-let beagle = new Dog("Snoopy");
-console.log(beagle.numLegs)
-// Output: 4
+Bird.prototype = Object.create(Animal.prototype)
+Bird.prototype.constructor = Bird
 ```
 
 
