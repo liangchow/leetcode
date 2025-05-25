@@ -197,6 +197,36 @@ function reverseAlpha(arr){
 
 ```
 
+## Constructor
+Constuctors are functions that create new objects. They define properties and behaviors that will belong to the new object. Think of them as a blueprint for the creation of new objects.
+
+```
+function Dog(){
+  this.name = 'Binks',
+  this.color = 'White',
+  this.numLegs = 4
+}
+
+let hound = new Dog()
+
+// Output
+{name: 'Binks', 'color': 'White', numLegs: 4}
+```
+```
+function Dog(name, color) {
+  this.name = name,
+  this.color = color,
+  this.numLegs = 4
+}
+
+let terrier = new Dog('Binks', 'White')
+
+// Output
+{name: 'Binks', color: 'White', numLegs: 4}
+
+```
+
+
 
 ## Escape quote
 
