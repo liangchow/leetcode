@@ -197,7 +197,7 @@ function reverseAlpha(arr){
 
 ```
 
-## Constructor
+## Constructor and Prototype
 Constuctors are functions that create new objects. They define properties and behaviors that will belong to the new object. Think of them as a blueprint for the creation of new objects.
 
 ```
@@ -226,6 +226,18 @@ let terrier = new Dog('Binks', 'White')
 
 ```
 
+`Prototype` can be used to reduce duplicate code.
+```
+function Dog(name) {
+  this.name = name;
+}
+
+Dog.prototype.numLegs = 4;
+
+let beagle = new Dog("Snoopy");
+console.log(beagle.numLegs)
+// Output: 4
+```
 
 
 ## Escape quote
