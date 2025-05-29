@@ -308,11 +308,14 @@ if (user.online){
   greet()
 }
 
+// Hello! You are online.
+
 # Code 2
-# If user.online is true, it doesn't short-circuit the second operand and HAS to return greet(). If user.online is false, it shorts and never returns greet() .
+# If user.online is true, it doesn't short-circuit the second operand and HAS to return greet(). If user.online is false, 
+it shorts and never returns greet().
+
 user.online && greet()
 
-// Hello! You are online.
 // Hello! You are online.
 ```
 ```
