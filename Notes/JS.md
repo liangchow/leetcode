@@ -71,7 +71,7 @@ More....
 - **`Object.hasOwnProperty(prop)`**: Test object for properties, e.g., `users.hasOwnProperty("Ali")` returns `false`.
 
 Finally....<br>
-A complex object can have multiple objects. In the example below, each inner object has an `id`, representing a specific object.These objects can have missing data or incomplete.
+A complex object can have multiple objects. In the example below, each inner object has an `id`, representing a specific object. These objects can have missing or incomplete data.
 
 ```
 const recordCollection = {
