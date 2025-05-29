@@ -340,7 +340,7 @@ Other uses:
 3. Lazy evaluation **`const res = actionA && actionB()`**: If `actionA` is false, then `actionB()` is skipped, saving resources.
 
 
-Article: [Javascript Short-Circuit Conditionals](https://medium.com/@amaliesmidth/javascript-short-circuit-conditionals-6606bdeaa30d){:target="blank"}
+Article: [Javascript Short-Circuit Conditionals](https://medium.com/@amaliesmidth/javascript-short-circuit-conditionals-6606bdeaa30d)
 
 ## Callback Function
 
@@ -364,7 +364,7 @@ setTimeout(() => {
 
 ```
 
-Article: [JS Callback Functions-What and How to Use](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)){:target="blank"}
+Article: [JS Callback Functions-What and How to Use](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
 
 ## Recursive
 
@@ -415,5 +415,5 @@ function countdown(n){
   }
 }
 ```
-Read more about [recursion](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-use-recursion-to-create-a-countdown/305925/2)){:target="blank"} <br>
-Watch video about [recursion](https://www.youtube.com/watch?v=LteNqj4DFD8&t=584s)){:target="blank"}
+Read more about [recursion](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-use-recursion-to-create-a-countdown/305925/2) <br>
+Watch video about [recursion](https://www.youtube.com/watch?v=LteNqj4DFD8&t=584s)
