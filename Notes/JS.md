@@ -177,7 +177,7 @@ const item = users.map(user => ({
 
 - **`reduce()`**:
 
-- **`sort()`**: Sorts the elements of an array according to the callback function by Unicode point value. If `compareFunction(a,b)` return a value less than 0 for two elements a and b, then a will come before b. If values a and b are greater than 0, then b comes before a. If a and b values equal to zero, then a and b remain unchanged.
+- **`sort()`**: Sorts the elements of an array according to the callback function by Unicode point value. If `compareFunction(a,b)` return a value `< 0` for two elements `a` and `b`, then `a` will come before `b`. If values `a` and `b` are `> 0`, then `b` comes before `a`. If `a` and `b` values `= 0`, then `a` and `b` remain unchanged.
 
 ```
 // Ascending
