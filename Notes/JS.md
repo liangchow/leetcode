@@ -20,7 +20,7 @@ export default Map
 ```
 
 ## Objects
-Objects are collections of key-value pairs, i.e., dictionary in Python. The object `data` below contains three properties (or *keys*): player, fightingStyle, hair color, age, human, costume color. Each *key* has a *value*.
+Objects are collections of key-value pairs, i.e., dictionary in Python. The object `data` below contains three properties (or *keys*): player, fightingStyle, hair color, age, human, costume color. Each *key* has a *value*, e.g., 'orange' or array ['blue','red'].
 
 ```
 const character = {
@@ -71,7 +71,7 @@ More....
 - **`Object.hasOwnProperty(prop)`**: Test object for properties, e.g., `users.hasOwnProperty("Ali")` returns `false`.
 
 Finally....<br>
-A complex object can have multiple objects. In the example below, each inner object has an `id`, representing a specific object. These objects can have missing or incomplete data.
+A complex object can have multiple objects. In the example below, each inner object has an `id` like '2548', representing a specific object. These objects can have missing or incomplete data.
 
 ```
 const recordCollection = {
@@ -121,7 +121,7 @@ function updateRecords(records, id, prop, value) {
 - **`splice(startIndex,numToRemov,toAdd)`**: Remove multiple or single element inside an array, e.g., `[10,11,12,12,15].splice(3,1, 13, 14) = [10,11,12,13,14,15]`. Starts from index-3 and remove 1 number, which is 12, from the array: `[10,11,12,15]`. Then add 13 and 14 to that position.
 - **`slice(startIndex, endIndex)`**: Extract a given number of array, e.g., `[1,2,3,4,5].slice(1,3) = [2,3]`
 - **`...`**: Spread operator to copy or combine an array, e.g., `let thisArray = [1,2,3]; let thatArray = [...thisArray]`.
-- **`indexOf()`**: Check presence of an element. Return `-1` if non-exists, e.g., `['apple','orange',kiwi'].indexOf('kiwi') = 2`
+- **`indexOf()`**: Check presence of an element. Return `-1` if non-exists, e.g., `['apple','orange', 'kiwi'].indexOf('kiwi') = 2`
 
 ```
 // Build a filter function by using indexOf() to check if something is true or false
@@ -164,7 +164,7 @@ console.log(names)
 
 const item = users.map(user => ({
   firstname: user["name"],
-  actualage: user["age]
+  actualage: user["age"]
 }))
 
 // return
@@ -185,7 +185,8 @@ function ascendingOrder(arr){
   return arr.sort( (a, b) => a-b)
 }
 
-// ascendingOrder([1,5,2,3,4]) returns [1,2,3,4,5]
+console.log(ascendingOrder([1,5,2,3,4])) 
+// [1,2,3,4,5]
 
 
 // Reverse Alphabets
@@ -193,7 +194,8 @@ function reverseAlpha(arr){
   return arr.sort((a, b) => a === b ? 0 : a < b ? 1 : -1)
 }
 
-// reverseAlpha(['l', 'h', 'z', 'b', 's']) returns ['z', 's', 'l', 'h', 'b']
+console.log(reverseAlpha(['l', 'h', 'z', 'b', 's']))
+// ['z', 's', 'l', 'h', 'b']
 
 ```
 
