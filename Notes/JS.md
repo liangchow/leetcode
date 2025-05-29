@@ -199,6 +199,19 @@ console.log(reverseAlpha(['l', 'h', 'z', 'b', 's']))
 
 ```
 
+## Ternary Operator
+
+A one-line `if/else` statement in syntax `a ? b : c`, where `a` is the condition, `b` is the result when `true` and `c` is false.
+
+```
+// Check if a number if negative, positive, or zero
+
+function checkSign(num){
+  return (num < 0) ? "negative" : (num > 0) ? "positive" : "zero"
+}
+
+```
+
 ## Constructor and Prototype
 Constuctors are functions that create new objects. They define properties and behaviors that will belong to the new object. Think of them as a blueprint for the creation of new objects.
 
@@ -242,7 +255,6 @@ Bird.prototype = Object.create(Animal.prototype)
 Bird.prototype.constructor = Bird
 ```
 
-
 ## Escape quote
 
 | Code   | Output          |
@@ -263,19 +275,6 @@ const myString = "FirstLine\n\t\\SecondLine"
 // Returns:
 FirstLine
     \SecondLine
-```
-
-## Ternary Operator
-
-A one-line `if/else` statement in syntax `a ? b : c`, where `a` is the condition, `b` is the result when `true` and `c` is false.
-
-```
-// Check if a number if negative, positive, or zero
-
-function checkSign(num){
-  return (num < 0) ? "negative" : (num > 0) ? "positive" : "zero"
-}
-
 ```
 
 ## Short-Circuit Evaluation
@@ -341,7 +340,7 @@ Other uses:
 3. Lazy evaluation **`const res = actionA && actionB()`**: If `actionA` is false, then `actionB()` is skipped, saving resources.
 
 
-Article: [Javascript Short-Circuit Conditionals](https://medium.com/@amaliesmidth/javascript-short-circuit-conditionals-6606bdeaa30d)
+Article: [Javascript Short-Circuit Conditionals](https://medium.com/@amaliesmidth/javascript-short-circuit-conditionals-6606bdeaa30d){:target="blank"}
 
 ## Callback Function
 
@@ -365,7 +364,7 @@ setTimeout(() => {
 
 ```
 
-Article: [JS Callback Functions-What and How to Use](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)
+Article: [JS Callback Functions-What and How to Use](https://www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/)){:target="blank"}
 
 ## Recursive
 
@@ -416,5 +415,5 @@ function countdown(n){
   }
 }
 ```
-Read more about [recursion](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-use-recursion-to-create-a-countdown/305925/2) <br>
-Watch video about [recursion](https://www.youtube.com/watch?v=LteNqj4DFD8&t=584s)
+Read more about [recursion](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-use-recursion-to-create-a-countdown/305925/2)){:target="blank"} <br>
+Watch video about [recursion](https://www.youtube.com/watch?v=LteNqj4DFD8&t=584s)){:target="blank"}
