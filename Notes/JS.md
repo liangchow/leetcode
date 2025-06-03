@@ -34,30 +34,28 @@ const users = {
 }
 
 // the old way. If any of these is false, it returns undefined.
-const lat = user.address && user.address.geo && user.address.geo.lat
+const lat = users.address && users.address.geo && users.address.geo.lat
 
 // optional chaining:
 const lat = users?.address?.geo?.lat
 >> return lat = 47.8095
 
 ```
-If `lat` is missing from `user`, it returns `undefined`. Combine with `nullish coalescing operator` or `??`, it returns the specified value.
+If `lat` is missing from `users`, it returns `undefined`. Combine with `nullish coalescing operator` or `??`, it returns the specified value. `??` is used to provide a default value.
 
 ```
-// No lat in users object:
+// No lat in the users object:
+// Add ?? with a default value of 0
 const lat = users?.address?.geo?.lat ?? 0
 >> return 0
 ```
 Optional chaining can be used to check if a properties before executing it:
 
 ```
-// If this videoPlayer can play, play it.
+// If this videoPlayer can or has play, execute it.
 videoPlayer?.play?.()
 
 ```
-
-
-
 
 ## Objects
 Objects are collections of key-value pairs, i.e., dictionary in Python. The object `data` below contains three properties (or *keys*): player, fightingStyle, hair color, age, human, costume color. Each *key* has a *value*, e.g., 'orange' or array ['blue','red'].
