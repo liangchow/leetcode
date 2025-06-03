@@ -19,6 +19,46 @@ const Map = (props) => {...}
 export default Map
 ```
 
+## ES2020
+### Optional Chaining (?.) and Nullish Coalescing Operator (??)
+```
+const users = {
+  id: 1293,
+  address: {
+    street: "No. 9 Getreidegasse",
+    geo: {
+      lat: 47.8095,
+      long: 13.055,
+    }
+  }
+}
+
+// the old way. If any of these is false, it returns undefined.
+const lat = user.address && user.address.geo && user.address.geo.lat
+
+// optional chaining:
+const lat = users?.address?.geo?.lat
+>> return lat = 47.8095
+
+```
+If `lat` is missing from `user`, it returns `undefined`. Combine with `nullish coalescing operator` or `??`, it returns the specified value.
+
+```
+// No lat in users object:
+const lat = users?.address?.geo?.lat ?? 0
+>> return 0
+```
+Optional chaining can be used to check if a properties before executing it:
+
+```
+// If this videoPlayer can play, play it.
+videoPlayer?.play?.()
+
+```
+
+
+
+
 ## Objects
 Objects are collections of key-value pairs, i.e., dictionary in Python. The object `data` below contains three properties (or *keys*): player, fightingStyle, hair color, age, human, costume color. Each *key* has a *value*, e.g., 'orange' or array ['blue','red'].
 
