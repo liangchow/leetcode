@@ -20,7 +20,7 @@ setTimeout(() =>{
 ```
 
 ## Use Callback Function
-Caution with the 'callback hell' when too many callback stacks up.
+Caution with the 'callback hill' when too many callback stacks up.
 ```
 function task2(callback){
     setTimeout(() =>{
@@ -115,4 +115,61 @@ promise.then((value) => {
 // returns: 'well done', depending on the random result, but the resolved ouput is returned.
 // returns: 'Oops. Try again', , depending on the random result.
 
+```
+## Chaining the Promises, Promise.all()
+```
+// To chain a series of functions, example:
+
+const promise = new Promise((resolve, reject) => {
+    resolve('Well done. Promise one is resolved')
+})
+
+const promiseTwo = new Promise((resolve, reject) => {
+    resolve('Well done. Promise two is resolved')
+})
+
+const promiseThree = new Promise((resolve, reject) => {
+    reject('Oops. Promise three is rejected')
+})
+
+promise
+.then((value) => {
+    console.log(value)
+    return promiseTwo
+})
+.then((value) => {
+    console.log(value)
+    return promiseThree
+})
+.catch((err) => {
+    console.log(err)
+})
+
+// return:
+'Well done. Promise one is resolved'
+'Well done. Promise two is resolved'
+'Oops. Promise three is rejected'
+```
+Use `promise.all()` that takes a array of function --- consumes several promises at the same time. See example below.
+
+```
+// Use of Promise.all() method, example:
+
+const promiseOne = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log('Promise one is resolved!')
+    }, 2000)
+})
+
+const promiseTwo = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log('Promise two is resolved')
+    }, 1500)
+})
+
+promise.all([promiseOne, promiseTwo])
+.then((data) => console.log(data[0], data[1]))
+.catch((err) => console.log(err))
+
+// returns: Promise one is resolved! Promise two is resolved
 ```
