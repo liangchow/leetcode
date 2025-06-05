@@ -150,7 +150,7 @@ promise
 'Well done. Promise two is resolved'
 'Oops. Promise three is rejected'
 ```
-Use `promise.all()` that takes a array of function --- consumes several promises at the same time. See example below.
+Use `promise.all()` that takes a array of function --- consumes several promises at the same time. This method is useful when we have multiple promises. For example, if we request different data from different APIs, but we want to only do something with the data when all requests are resolved. If one request failed, we do not want to use the data.
 
 ```
 // Use of Promise.all() method, example:
@@ -171,5 +171,53 @@ promise.all([promiseOne, promiseTwo])
 .then((data) => console.log(data[0], data[1]))
 .catch((err) => console.log(err))
 
-// returns: Promise one is resolved! Promise two is resolved
+// return the result at the same time even if timeout is different. 
+Promise one is resolved! Promise two is resolved
+```
+## Async/Await
+To streamline async functions. See the example below using `setTimeout()` to emulate different time outs. 
+
+```
+const preHeatOven = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const preHeatoven = true;
+
+            if (preHeatOven){
+                resolve('Preheat oven to 180 deg')
+            } else {
+                reject('Failed task')
+            }
+        }, 1000)
+    })
+}
+
+const addSugarAndChocoChips = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const addSugarAndChocoChips = true;
+
+            if (preHeatOven){
+                resolve('Place butter and choco chips')
+            } else {
+                reject('Failed task')
+            }
+        }, 1000)
+    })
+}
+
+const bakeChocolateBrownie = async () => {
+    const taskOne = await preHeatOven()
+    console.log(taskOne)
+
+    const taskTwo = await addSugarAndChocoChips()
+    console.log(taskTwo)
+
+    console.log('Enjoy your brownie')
+}
+
+// Returns:
+After 1 sec....Preheat oven to 180 deg
+After 1 more sec.....Place butter and choco chips
+After 1 more sec.....Enjoy your brownie
 ```
