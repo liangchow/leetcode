@@ -175,7 +175,7 @@ promise.all([promiseOne, promiseTwo])
 Promise one is resolved! Promise two is resolved
 ```
 ## Async/Await
-To streamline async functions. See the example below using `setTimeout()` to emulate different time outs. 
+To streamline async codes in a synchronous manner. Basically, it waits to the promise to resolve before moving to the next one. See the example below using `setTimeout()` to emulate different time outs. The `Async/Await` method is easier to read compared to chaining with `.then()` and less complicated than `promise().all`.
 
 ```
 const preHeatOven = () => {
@@ -197,7 +197,7 @@ const addSugarAndChocoChips = () => {
         setTimeout(() => {
             const addSugarAndChocoChips = true;
 
-            if (preHeatOven){
+            if (addSugarAndChocoChips){
                 resolve('Place butter and choco chips')
             } else {
                 reject('Failed task')
@@ -207,13 +207,21 @@ const addSugarAndChocoChips = () => {
 }
 
 const bakeChocolateBrownie = async () => {
-    const taskOne = await preHeatOven()
-    console.log(taskOne)
 
-    const taskTwo = await addSugarAndChocoChips()
-    console.log(taskTwo)
+    try {
+    
+        const taskOne = await preHeatOven()
+        console.log(taskOne)
 
-    console.log('Enjoy your brownie')
+        const taskTwo = await addSugarAndChocoChips()
+        console.log(taskTwo)
+
+        console.log('Enjoy your brownie')
+
+    } catch(err) {
+        console.log(err)
+    }
+
 }
 
 // Returns:
@@ -221,3 +229,74 @@ After 1 sec....Preheat oven to 180 deg
 After 1 more sec.....Place butter and choco chips
 After 1 more sec.....Enjoy your brownie
 ```
+
+## Fetch API
+```
+const getAllProducts = async () => {
+    try {
+        const response = await fetch('https://dummyjson.com/products/')
+        const json = await response.json()
+        console.log(json)
+    } catch(err) {
+        console.log(err)
+    }
+}
+
+getAllProducts
+
+// Returns:
+A json files
+```
+```
+// POST
+fetch('https://dummyjson.com/products/add', {
+    method: 'POST',
+    header: {
+        'Content-type': 'application/json'
+    },
+    body: JSON.stringify({
+        description: 'Iphone 19',
+        price: '1000'
+    })
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(err => console.log(err))
+
+// Returns:
+Add 1 product to the list
+```
+```
+// PUT
+fetch('https://dummyjson.com/products/1', {
+    method: 'PUT',
+    header: {
+        'Content-type': 'application/json'
+    },
+    body: JSON.stringify({
+        description: 'Iphone 20',
+        price: '2000'
+    })
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(err => console.log(err))
+
+// Returns:
+Update product 1 description and price
+```
+```
+// DELETE
+fetch('https://dummyjson.com/products/1', {
+    method: 'DELETE',
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(err => console.log(err))
+
+// Returns:
+Delete product 1 from the list
+```
+
+Resource:
+[Asynchronous JavaScript Course – Async/Await , Promises, Callbacks, Fetch API](https://www.youtube.com/watch?v=OFpqvaJ3QYg)
