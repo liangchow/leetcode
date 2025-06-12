@@ -312,8 +312,13 @@ const loadJoke = asyn () => {
         const jokeData = await chuckNorrisFetch.json()
         document.getElementByID('loadingJoke').innerHTML = jokeData.value
 
+    } catch(err) {
+        console.log(error)
     }
 }
+
+// onClick button 
+document.getElementById('loadJokeBtn').addEventListener("click", loadJoke)
 
 ```
 
