@@ -297,6 +297,26 @@ fetch('https://dummyjson.com/products/1', {
 // Returns:
 Delete product 1 from the list
 ```
+## Example: Chuck Norris API
+```
+// app.js
+
+const loadJoke = asyn () => {
+    try {
+        const chuckNorrisFetch = await fetch('https://api.chucknorris.io/jokes/random', {
+            headers: {
+                Accept: "application/json"
+            }
+        })
+
+        const jokeData = await chuckNorrisFetch.json()
+        document.getElementByID('loadingJoke').innerHTML = jokeData.value
+
+    }
+}
+
+```
+
 
 Resource:
 [Asynchronous JavaScript Course – Async/Await , Promises, Callbacks, Fetch API](https://www.youtube.com/watch?v=OFpqvaJ3QYg)
