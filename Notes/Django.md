@@ -1,5 +1,7 @@
 # Django Notes
 
+Django is a web framework to generate HTML and CSS for dynamic web applications.
+
 ## Set-Up
 If using VS Code, install these extensions: `Python` and `SQLite Viewer`.
 
@@ -9,24 +11,45 @@ Next, install:
 
 After the installation:
 - **`pipenv shell`**: Launch virtual environment.
-- **`django-admin startproject firstproject `**: Create a project called `firstproject`. We can use `python manage.py <command>` or `django-admin` interchangely.
-- **`python manage.py startapp firstapp`**: Create an app called `firstapp`.
+- **`django-admin startproject lecture3 `**: Create a project called `lecture3` with some starter files. We can use `python manage.py <command>` or `django-admin` interchangely.
+- **`python manage.py startapp myApp`**: Create an app called `myApp`.
 ```
-firstproject/
-|-- firstapp/
+lecture3/
+|-- myApp/
 |   |-- migrations/
 |   |-- __init__.py
 |   |-- admin.py
 |   |-- apps.py
 |   |-- models.py
 |   |-- tests.py
-|   |-- views.py
+|   |-- views.py    <---- Each view is like something that user wants to see, i.e., user makes a request, you process, then send back the response.
+|-- lecture3/
+|   |-- __init__.py
+|   |-- asgi.py
+|   |-- settings.py
+|   |-- urls.py      <---- Table of contents
+|   |-- wsgi.py
+|-- db.sqlite3
 |-- manage.py
 ```
-## Views.py
-`View` is where we take user request, process them and send back with response. In other words, `view` deals with logic parts of the application.
-Open `views.py` and change the interpreter to the one virtual environment version (`pipenv`) to resolve the errors.
 
-
-## Built-In Components
+- **`python manage.py runserver`**: Run the web server.
 - **`python manage.py createsuperuse`**: Create superuser. Will prompt username and password, to access `admin`.
+
+## Settings.py and Views.py
+Open `settings.py` and add `myApp` to `INSTALLED_APPS`.
+
+```
+// views.py
+from django.http import HttpResponse
+from django.shortcuts import render
+
+# Create your views here.
+def index(request):
+    return HttpResponse("Hello world!")
+
+```
+
+
+
+Watch video: [CS50W - Lecture 3 - Django](https://www.youtube.com/watch?v=w8q0C-C1js4)
