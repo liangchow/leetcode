@@ -88,7 +88,7 @@ If we type `127.0.0.1:8000/myApp/lucy`, we will see "Hello, Lucy!."
 
 ## Templates
 
-Instead of speciying each url, we can use create an `index.html` for each page:
+Instead of specifying each url, we can use create an `index.html` for each page:
 ```
 // myApp > views.py
 def index(request):
