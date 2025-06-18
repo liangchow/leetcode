@@ -140,6 +140,7 @@ lecture3/
 Now, when type `127.0.0.1:8000/hello/`, we will see <h5>Hello, worldddd!</h5>
 When we render the `127.0.0.1:8000/hello/ron` page, we will see `Hello, Ron!`.
 
+### New Year's App: Conditional and Static Files (Styling)
 Try the `newyear` app, if today is the New Year's day, using Django conditional statements with `{% %}`.
 
 ```
@@ -158,6 +159,9 @@ def index(request):
 lecture3/
 |-- newyear/
 |   |-- migrations/
+|   |-- static/             <--- Static files
+|   |   |-- newyear/
+|   |       |-- styles.css
 |   |-- templates/
 |   |   |-- newyear/
 |   |       |-- index.html
@@ -165,10 +169,13 @@ lecture3/
 ```
 // newyear > templates > newyear > index.html
 
+{% load static %}   <--- Django will figure out where the static files are
+
 <!doctype html>
 <html lang="en">
     <head>
         <title>Is it New Year's?</title>
+        <link href="{% static 'newyear/styles.css' %}" rel="stylesheet">
     </head>
     <body>
         {% if newyear %}
@@ -179,5 +186,6 @@ lecture3/
     </body>
 </html>
 ```
+## Tasks
 
 Watch video: [CS50W - Lecture 3 - Django](https://www.youtube.com/watch?v=w8q0C-C1js4)
