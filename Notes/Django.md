@@ -93,6 +93,11 @@ Instead of specifying each url, we can use create an `index.html` for each page:
 // myApp > views.py
 def index(request):
     return render(request, "myApp/index.html")
+
+def greet(request, name):
+    return render(request, "myApp/greet.html", {
+        "name": name.capitalize()
+    })
 ```
 ```
 lecture3/
@@ -101,9 +106,11 @@ lecture3/
 |   |-- templates/
 |   |   |-- hello/          <-- Create this template called 'hello' and index.html
 |   |       |-- index.html
+|   |       |-- greet.html
 ```
 ```
 // myApp > templates > hello > index.html
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -113,9 +120,21 @@ lecture3/
         <h5>Hello, worldddd!</h5>
     </body>
 </html>
+
+// myApp > templates > hello > greet.html
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Hello</title>
+    </head>
+    <body>
+        <p>Hello, {{name}}!</h1>   <--- Use double curly braces, a Django script.
+    </body>
+</html>
 ```
 Now, when type `127.0.0.1:8000/hello/`, we will see <h5>Hello, worldddd!</h5>
-
+When we render the `127.0.0.1:8000/hello/ron` page, we will see `Hello, Ron!`.
 
 
 
