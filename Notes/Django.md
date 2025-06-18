@@ -43,6 +43,7 @@ Generally, need to import functions.
 
 ```
 // views.py
+
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -61,6 +62,7 @@ def greet(request, name):
 ```
 ```
 // myApp > urls.py
+
 from django.urls import path
 from . import views
 
@@ -74,6 +76,7 @@ urlpatterns = [
 Now, go to the `lecture3` and open `urls.py`, then add the `myApp` that newly created and import `include`:
 ```
 // lecture3 > urls.py
+
 from django.contrib import admin
 from django.urls import path, include
 
@@ -91,6 +94,7 @@ If we type `127.0.0.1:8000/myApp/lucy`, we will see "Hello, Lucy!."
 Instead of specifying each url, we can use create an `index.html` for each page:
 ```
 // myApp > views.py
+
 def index(request):
     return render(request, "myApp/index.html")
 
@@ -129,14 +133,51 @@ lecture3/
         <title>Hello</title>
     </head>
     <body>
-        <p>Hello, {{name}}!</h1>   <--- Use double curly braces, a Django script.
+        <p>Hello, {{name}}!</p>   <--- Use double curly braces, a Django script.
     </body>
 </html>
 ```
 Now, when type `127.0.0.1:8000/hello/`, we will see <h5>Hello, worldddd!</h5>
 When we render the `127.0.0.1:8000/hello/ron` page, we will see `Hello, Ron!`.
 
+Try the `newyear` app, if today is the New Year's day, using Django conditional statements with `{% %}`.
 
+```
+// newyear > views.py
 
+from django.shortcuts import render
+import datetime
+
+def index(request):
+    now = datetime.datetime.now
+    return render(request, "newyear/index.html", {
+        "newyear": now.month == 1 and now.day == 1
+    })
+```
+```
+lecture3/
+|-- newyear/
+|   |-- migrations/
+|   |-- templates/
+|   |   |-- newyear/
+|   |       |-- index.html
+```
+```
+// newyear > templates > newyear > index.html
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Is it New Year's?</title>
+    </head>
+    <body>
+        {% if newyear %}
+            <h1>YES</h1>
+        {% else %}
+            <h1>NO</h1>
+        {% endif %}
+    </body>
+</html>
+```
 
 Watch video: [CS50W - Lecture 3 - Django](https://www.youtube.com/watch?v=w8q0C-C1js4)
