@@ -207,9 +207,20 @@ lecture3/
     </body>
 </html>
 ```
-## Tasks
+## Tasks and Form
 Try the `tasks` todo app using `{% for lop %}`.
 
+```
+// tasks/views.py
+
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path("", views.index, name="index"),
+    path("add", views.add, name="add")
+]
+```
 ```
 // tasks/views.py
 
@@ -219,10 +230,15 @@ tasks = [
     "Go to swim"
 ]
 
+// redner task in tasks in index.html
 def index(request):
     return render(request, "tasks/index.html". {
         "tasks": tasks
     })
+
+def add(request):
+    return render(request, "tasks/add.html")
+
 ```
 ```
 // tasks/templates/tasks/index.html
@@ -230,7 +246,7 @@ def index(request):
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Hello</title>
+        <title>Tasks</title>
     </head>
     <body>
         <ul>
@@ -240,8 +256,66 @@ def index(request):
         </ul>
     </body>
 </html>
+```
+```
+// tasks/templates/tasks/add.html
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Tasks</title>
+    </head>
+    <body>
+        <h1>Add Task</h1>
+        <form>
+            <input type="text" name="task">
+            <input type="submit">
+        </form>
+    </body>
+</html>
+```
+## Template Inheritance
+Create `layout.html` in `tasks/templates/tasks/`. use `{% block %}` to tell Django that we will be using the same layout, but inside the body, the content inside the `block` will change, depending on which `.html` we're using.
+```
+//layout.html
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Tasks</title>
+    </head>
+    <body>
+        {% block body%}
+        {% endblock%}
+    </body>
+</html>
+```
+Now, inside `index.html` and `add.html`:
 
 ```
+// index.html
 
+{% extends "tasks/layout.html %}
+
+{% block body %}
+    <ul>
+        {% for task in tasks%}
+            <li>{{task}}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+```
+```
+// add.html
+
+{% extends "tasks/layout.html %}
+
+{% block body %}
+    <h1>Add Task</h1>
+    <form>
+        <input type="text" name="task">
+        <input type="submit">
+    </form>
+{% endblock %}
+```
 
 Watch video: [CS50W - Lecture 3 - Django](https://www.youtube.com/watch?v=w8q0C-C1js4)
