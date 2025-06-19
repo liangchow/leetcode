@@ -240,7 +240,6 @@ def index(request):
 
 def add(request):
     return render(request, "tasks/add.html")
-
 ```
 ```
 // tasks/templates/tasks/index.html
@@ -304,7 +303,7 @@ Now, inside `index.html` and `add.html`:
             <li>{{ task }}</li>
         {% endfor %}
     </ul>
-    <a href="{% url 'add' %}">Add a New Task</a>         <--- Link this 'Add a New Task' to add.html by referring to name='add' in urls.py
+    <a href="{% url 'tasks: add' %}">Add a New Task</a>         <--- Link this 'Add a New Task' to add.html by referring to name='add' in urls.py of "tasks" app
 {% endblock %}
 ```
 ```
@@ -314,11 +313,90 @@ Now, inside `index.html` and `add.html`:
 
 {% block body %}
     <h1>Add Task</h1>
-    <form>
+    <form action="{% url 'tasks:add' %}" method="post">
+        {% csrf_token %}
         <input type="text" name="task">
         <input type="submit">
     </form>
-    <a href="{% url 'index' %}">View Tasks</a>
+    <a href="{% url 'tasks: index' %}">View Tasks</a>
+{% endblock %}
+```
+### Use the Built-In Form in Django & Sessions
+Sessions remembers the user and stores user data. To use session:
+- We need to run `python manage.py migrate` to create the table for storing user data.
+
+```
+// tasks/views.py
+
+from django.shortcuts import render
+from django import forms
+from django.http import HttpResponseRedirect
+from django.urls import reverse
+
+// Get rid of global variable and use session
+<!-- tasks = [
+    "Drink more coffee",
+    "Exercise 2 times a week",
+    "Go to swim"
+] -->
+
+class NewTaskForm(forms.Form):
+    task = forms.CharField(label="New Task")
+    priority = forms.IntegerField(label="Priority", min_value=1, max_value=10)
+
+// render task in tasks in index.html
+def index(request):
+    if "tasks" not in request.session:
+        request.session["tasks"] = []               <--- Add session
+    return render(request, "tasks/index.html". {
+        "tasks": request.session["tasks"]           <--- Add session
+    })
+
+def add(request):
+    if request.method == "POST":
+        form = NewTaskForm(request.POST)
+            if form.is_valid():                      <--- Check if user provides the data correctly or in the right format
+                task = form.cleaned_data["task"]     <--- If the form is valud, we take the data from the form, get the "task"
+                request.session["task] += [tasks]    <--- Add "task" to tasks list using session
+                return HttpResponseRedirect(reverse("tasks: index"))     <--- Redirect user back to index.html
+            else:
+                return render(request, "tasks/add.html", {
+                    "form": form                    <--- If not valid, render the same add.html back to user
+                })
+
+    return render(request, "tasks/add.html", {
+        "form": newTaskForm()                       <--- Create a blank form with two fields: New Task and Priority
+    })
+```
+```
+// add.html
+
+{% extends "tasks/layout.html %}
+
+{% block body %}
+    <h1>Add Task</h1>
+    <form action="{% url 'tasks: add' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit">
+    </form>
+    <a href="{% url 'tasks: index' %}">View Tasks</a>
+{% endblock %}
+```
+```
+// index.html
+
+{% extends "tasks/layout.html %}
+
+{% block body %}
+    <ul>
+        {% for task in tasks%}
+            <li>{{ task }}</li>
+        {% empty %}
+            <li>No tasks.</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'tasks: add' %}">Add a New Task</a>
 {% endblock %}
 ```
 
