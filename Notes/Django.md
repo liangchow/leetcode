@@ -2,6 +2,27 @@
 
 Django is a web framework to generate HTML and CSS for dynamic web applications.
 
+
+### Quick Guide: Step-by-Step
+
+Everything creating a new app, say `newApp`, follow these steps:
+1. Go to `settings.py` of project, add the new app to `INSTALLED_APP` list.
+2. Go to `urls.py` of project, add new path like `path('newApp/', include("newApp.urls"))` in `urlpatterns` list.
+3. Go to the `newApp/` directory, create a new file called `urls.py`.
+4. Open `urls.py` and add the following:
+```
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path("", views.index, name="index")
+]
+```
+5. Now, we can write this `index` function in `views.py` of newApp. 
+6. Go to `newApp/` directory, create a new folder called `templates/` then another new folder called `tasks/`.
+7. Inside `newApp/templates/tasks` directory, create a new file called `index.html`.
+8. Now we can write HTML in `index.html`.
+
 ## Set-Up
 If using VS Code, install these extensions: `Python` and `SQLite Viewer`.
 
@@ -187,5 +208,40 @@ lecture3/
 </html>
 ```
 ## Tasks
+Try the `tasks` todo app using `{% for lop %}`.
+
+```
+// tasks/views.py
+
+tasks = [
+    "Drink more coffee",
+    "Exercise 2 times a week",
+    "Go to swim"
+]
+
+def index(request):
+    return render(request, "tasks/index.html". {
+        "tasks": tasks
+    })
+```
+```
+// tasks/templates/tasks/index.html
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Hello</title>
+    </head>
+    <body>
+        <ul>
+            {% for task in tasks%}
+                <li>{{task}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
+
+```
+
 
 Watch video: [CS50W - Lecture 3 - Django](https://www.youtube.com/watch?v=w8q0C-C1js4)
