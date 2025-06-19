@@ -14,6 +14,7 @@ Everything creating a new app, say `newApp`, follow these steps:
 from django.urls import path
 from . import views
 
+app_name = "newApp"             <--- Uniquely identify this app to avoid name confusion
 urlpatterns = [
     path("", views.index, name="index")
 ]
@@ -216,6 +217,7 @@ Try the `tasks` todo app using `{% for lop %}`.
 from django.urls import path
 from . import views
 
+app_name = "tasks"
 urlpatterns = [
     path("", views.index, name="index"),
     path("add", views.add, name="add")
@@ -299,9 +301,10 @@ Now, inside `index.html` and `add.html`:
 {% block body %}
     <ul>
         {% for task in tasks%}
-            <li>{{task}}</li>
+            <li>{{ task }}</li>
         {% endfor %}
     </ul>
+    <a href="{% url 'add' %}">Add a New Task</a>         <--- Link this 'Add a New Task' to add.html by referring to name='add' in urls.py
 {% endblock %}
 ```
 ```
@@ -315,6 +318,7 @@ Now, inside `index.html` and `add.html`:
         <input type="text" name="task">
         <input type="submit">
     </form>
+    <a href="{% url 'index' %}">View Tasks</a>
 {% endblock %}
 ```
 
