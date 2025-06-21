@@ -280,6 +280,7 @@ def add(request):
 </html>
 ```
 ## Template Inheritance
+
 Create `layout.html` in `tasks/templates/tasks/`. use `{% block %}` to tell Django that we will be using the same layout, but inside the body, the content inside the `block` will change, depending on which `.html` we're using.
 ```
 //layout.html
@@ -326,6 +327,7 @@ Now, inside `index.html` and `add.html`:
 {% endblock %}
 ```
 ### Use the Built-In Form in Django & Sessions
+
 Sessions remembers the user and stores user data. To use session:
 - We need to run `python manage.py migrate` to create the table for storing user data.
 
