@@ -60,6 +60,7 @@ lecture3/
 - **`python manage.py createsuperuse`**: Create superuser. Will prompt username and password, to access `admin`.
 
 ## Routes
+
 Open `settings.py` and add `myApp` to `INSTALLED_APPS`.
 Generally, need to import functions.
 
