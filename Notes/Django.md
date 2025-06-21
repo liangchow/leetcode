@@ -2,7 +2,6 @@
 
 Django is a web framework to generate HTML and CSS for dynamic web applications.
 
-
 ### Quick Guide: Step-by-Step
 
 Everything creating a new app, say `newApp`, follow these steps:
@@ -25,6 +24,7 @@ urlpatterns = [
 8. Now we can write HTML in `index.html`.
 
 ## Set-Up
+
 If using VS Code, install these extensions: `Python` and `SQLite Viewer`.
 
 Next, install:
@@ -35,6 +35,7 @@ After the installation:
 - **`pipenv shell`**: Launch virtual environment.
 - **`django-admin startproject lecture3 `**: Create a project called `lecture3` with some starter files. We can use `python manage.py <command>` or `django-admin` interchangely.
 - **`python manage.py startapp myApp`**: Create an app called `myApp`.
+
 ```
 lecture3/
 |-- myApp/
@@ -164,6 +165,7 @@ Now, when type `127.0.0.1:8000/hello/`, we will see <h5>Hello, worldddd!</h5>
 When we render the `127.0.0.1:8000/hello/ron` page, we will see `Hello, Ron!`.
 
 ### New Year's App: Conditional and Static Files (Styling)
+
 Try the `newyear` app, if today is the New Year's day, using Django conditional statements with `{% %}`.
 
 ```
@@ -210,6 +212,7 @@ lecture3/
 </html>
 ```
 ## Tasks and Form
+
 Try the `tasks` todo app using `{% for lop %}`.
 
 ```
