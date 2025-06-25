@@ -1,5 +1,5 @@
 # SQL, Models, and Migrations Notes
-Some Data Management Systems are MySQL, PostgreSQl, SQLite etc.
+Some Data Management Systems are MySQL, PostgreSQl, SQLite etc. We write Python in Django. Django will automatically handle the SQL queries.
 
 ### SQLite Support Types
 - TEXT
@@ -33,10 +33,10 @@ Some Data Management Systems are MySQL, PostgreSQl, SQLite etc.
 - ...
 
 ### Other Clauses
-- LIMIT: Limit rows of data returned, e.g., `SELECT * FROM flights LIMIT 5`.
-- ORDER BY: For example, `SELECT * FROM flights ORDER BY destination`.
-- GROUP BY: For example, `SELECT * FROM flights GROUP BY origin="London"`.
-- HAVING
+- `LIMIT`: Limit rows of data returned, e.g., `SELECT * FROM flights LIMIT 5`.
+- `ORDER BY`: For example, `SELECT * FROM flights ORDER BY destination`.
+- `GROUP BY`: For example, `SELECT * FROM flights GROUP BY origin="London"`.
+- `HAVING`
 - ...
 
 ## Syntax and Queries
@@ -91,8 +91,15 @@ SELECT * FROM flights WHERE origin IN ("New York", "Lima");
 
 // Read all data where the origin has "a" in it
 SELECT * FROM flights WHERE origin LIKE "%a%";
-
 ```
+## Foreign Keys
+Like "referencing" data to another dataset. For example, create code for each airport using `foreign keys`.
+
+id|code|city
+---|---|---
+1|JFK|New York
+2|PVG|Shanghai
+3|IST|Istanbul
 
 
 
