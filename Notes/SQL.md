@@ -24,11 +24,21 @@ Some Data Management Systems are MySQL, PostgreSQl, SQLite etc.
 - PRIMARY KEY
 - UNIQUE: Guarantee every value is unique
 
-## Syntax and Queries
+### Functions
+- AVERAGE
+- COUNT
+- MAX
+- MIN
+- SUM
+- ...
 
+## Syntax and Queries
+**Important**: SQL recognizes end of command using semi-colon `;`.
 - `CREATE TABLE`: Create a new table.
 - `INSERT`: Insert data.
-- `SELECT`: Read data from an existing data table. Combine with `WHERE` to filter specific data.
+- `SELECT`: Read data from an existing data table. Combine with `WHERE`, `AND`, `OR`, `IN` and/or `% %` (wild card) to filter specific data.
+- `UPDATE`: Update data in a table, i.e., `SET`.
+- `DELETE`
 - `.mode columns`: In SQLite, make data table as a columns mode.
 - `.headers yes`: In SQLite, make the data table looks organized.
 
@@ -46,6 +56,14 @@ CREATE TABLE flights (
 // Add a new row to the table flights
 INSERT INTO flights (origin, destination, duration) VALUES ("New York", "London", 415);
 
+// Update duration to 430 for the row where origin is "New York" and destination is "London"
+UPDATE flights
+    SET duration=430
+    WHERE origin="New York" AND destination="London";
+
+// Delete data
+DELETE FROM flights WHERE destination="Tokyo"
+
 // Read all rows of data from flights 
 SELECT * FROM flights;
 
@@ -57,6 +75,15 @@ SELECT * FROM flights WHERE id=3;
 
 // Read all data where "New York" is the origin
 SELECT * FROM flights WHERE origin="New York";
+
+// Read all data where duration is longer than 500 minutes and desitnation is Paris
+SELECT * FROM flights WHERE duration > 500 AND destination="Paris";
+
+// Read all data where the origin is "New York" or "Lima"
+SELECT * FROM flights WHERE origin IN ("New York", "Lima");
+
+// Read all data where the origin has "a" in it
+SELECT * FROM flights WHERE origin LIKE "%a%";
 
 ```
 
