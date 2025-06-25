@@ -32,6 +32,13 @@ Some Data Management Systems are MySQL, PostgreSQl, SQLite etc.
 - SUM
 - ...
 
+### Other Clauses
+- LIMIT: Limit rows of data returned, e.g., `SELECT * FROM flights LIMIT 5`.
+- ORDER BY: For example, `SELECT * FROM flights ORDER BY destination`.
+- GROUP BY: For example, `SELECT * FROM flights GROUP BY origin="London"`.
+- HAVING
+- ...
+
 ## Syntax and Queries
 **Important**: SQL recognizes end of command using semi-colon `;`.
 - `CREATE TABLE`: Create a new table.
