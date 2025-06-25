@@ -17,8 +17,13 @@ Some Data Management Systems are MySQL, PostgreSQl, SQLite etc.
 - DOUBLE
 - ...
 
-## Syntax
+## Syntax and Queries
+- `CREATE TABLE`: Create a new table.
+- `INSERT`: Insert data.
+- `SELECT`: Read data from an existing data table. 
+
 ```
+// Example
 // Create a table with columns: id (INTEGER, PRIMARY KEY=Unique, auto update new row), origin (TEXT), destination (TEXT), and duration (INTEGER)
 
 CREATE TABLE flights (
@@ -27,7 +32,27 @@ CREATE TABLE flights (
     destination TEXT NOT NULL,
     duration INTEGER NOT NULL
 );
+
+// Add a new row to the table flights
+
+INSERT INTO flights
+    (origin, destination, duration)
+    VALUES ("New York", "London", 415);
+
+// Read all rows of data from flights 
+SELECT * FROM flights;
+
+// Read all rows of origin and destination data from flights
+SELECT origin, destination FROM flights;
+
 ```
+### Constraints
+- CHECK: Ensure a certain value falls within a certain range, e.g., movie rating from 1 to 5.
+- DEFAULT: Give a default value.
+- NOT NULL
+- PRIMARY KEY
+- UNIQUE: Guarantee every value is unique
+
 
 
 
