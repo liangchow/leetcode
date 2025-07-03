@@ -46,6 +46,7 @@ If `lat` is missing from `users`, it returns `undefined`. Combine with `nullish 
 ```
 // No lat in the users object:
 // Add ?? with a default value of 0
+
 const lat = users?.address?.geo?.lat ?? 0
 >> return 0
 ```
