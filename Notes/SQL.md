@@ -101,6 +101,31 @@ id|code|city
 2|PVG|Shanghai
 3|IST|Istanbul
 
+## Relational Database
+How to relate a dataset to another. For example, how mnay flight can be associated with many passengers.
+
+**Passengers**
+id|first|last|flight_id
+---|---|---|---
+1|Harry|Porter|1
+2|Ron|Weasley|1
+3|Hermione|Granger|2
+
+Create a new table, **People**, to store people info with `id`.
+id|first|last
+---|---|---
+1|Harry|Porter
+2|Ron|Weasley
+3|Hermione|Granger
+
+Then, another new table **Passengers** with a `foreigh key` using `id`. The idea is Join Table from one table to another to map.
+person_id|flight_id
+---|---
+1|1
+2|1
+2|4
+3|2
+
 
 
 
