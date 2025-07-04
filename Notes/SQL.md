@@ -101,7 +101,7 @@ id|code|city
 2|PVG|Shanghai
 3|IST|Istanbul
 
-## Relational Database
+### Joining Table, e.g., Relationship Database
 How to relate a dataset to another. For example, how mnay flight can be associated with many passengers.
 
 **Passengers**
@@ -112,13 +112,15 @@ id|first|last|flight_id
 3|Hermione|Granger|2
 
 Create a new table, **People**, to store people info with `id`.
+
+**People**
 id|first|last
 ---|---|---
 1|Harry|Porter
 2|Ron|Weasley
 3|Hermione|Granger
 
-Then, another new table **Passengers** with a `foreigh key` using `id`. The idea is Join Table from one table to another to map.
+Then, another new table **Passengers** with a `foreigh key` using `id`. The idea is Join Table from one table to another for mapping passenger to flight.
 person_id|flight_id
 ---|---
 1|1
@@ -126,6 +128,66 @@ person_id|flight_id
 2|4
 3|2
 
+```
+// Join table using JOIN and ON: Select each person's "first, origin and destination" from the "flights" table, then join with the "passengers" table based on (related together) the "flight_id" column in the "passengers" table, that is associated with "id" in the "flights" table.
+
+SELECT  first, origin, destination
+    FROM flights JOIN passengers
+    ON passengers.flight_id = flight.id;
+```
+first|origin|destination
+---|---|---
+Harry|New York|London
+Ron|New York|London
+Hermione|Shanghai|Paris
+
+- `JOIN / INNER JOIN` Example above. Cross compare two tables based on the condition specified. Only returns the results when there's match on both sides.
+- `LEFT OUTER JOIN`
+- `RIGHT OUTER JOIN`
+- `FULL OUTER JOIN`
+- `CREATE INDEX`: For example, `CREATE INDEX idx ON passengers (last);` creates index called 'idx' on the last name in the passengers table
+
+## SQL Models: models.py and Migration
+Every `model` is a `class`. Each changes to the dataset needs to migrate in django.
+
+```
+// flights > models.py
+
+from django.db import models
+
+# Create your models here.
+class Flight(models.Model):
+    origin = models.CharField(max_length=64)
+    destination = models.CharField(max_length=64)
+    duration = models.IntegerField()
+
+    def __str__(self):
+        return f"{self.id}: {self.origin} to {self.destination}"
+```
+
+-`python manage.py makemigrations`: Create the model Flight. A new file `0001_initial.py` is created.
+-`python manage.py migrations`: To apply the migration, including `0001_initial`. A new `db.sqlite3` database file is created.
+-`python manage.py shell`: To enter python shell to access the sqlite3 database. No need to use SQL syntax.
+
+```
+// To insert data
+
+>>> from flights.model import Flight
+>>> f = Flight(origin="New York", destination="London", duration=415)
+>>> f.save()
+
+// To read data
+
+>>> flights = Flight.objects.all()
+>>> flights
+<QuerySet [<Flight: 1:New York to London>]>
+>>> flight = flights.first()
+>>> flight.id
+1
+>>> flight.duration
+415
+
+```
 
 
 
