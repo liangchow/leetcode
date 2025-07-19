@@ -23,5 +23,7 @@ const firebaseConfig ={
 const app = initializeApp(firebaseConfig)
 
 export const db = getFireStore(app)
+
 ```
-- Create **`.env`** file to store `firebaesConfig()` privately.
+- Create **`.env`** file to store `firebaesConfig()` keys.
+- Create a firebase database, `db` .
