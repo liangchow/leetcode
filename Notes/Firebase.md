@@ -1,5 +1,9 @@
 # Firebase Notes
 
+Cloud Firestore is a NOSQL, document-oriented database. We store data in *documents*, which are organized into *collections*.
+- *Documents*: Each document contains a set of key-value pair. 
+- *Collections*:  
+
 ## Setup
 - **`npm i firebase`**
 - Log in to Firebase `console`, create a `project`. Create a `web app`.
