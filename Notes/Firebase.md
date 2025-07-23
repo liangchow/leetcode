@@ -48,9 +48,7 @@ Users (Collection)
 |   |--profile_pic: "http://..."
 ```
 ## Querying
-- **`npm i firebase`**
-- Log in to Firebase `console`, create a `project`. Create a `web app`.
-- Create **`firebase.js`**
+
 
 
 ## Setup
