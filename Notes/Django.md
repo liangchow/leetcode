@@ -406,4 +406,7 @@ def add(request):
 {% endblock %}
 ```
 
+### Django REST Framework
+**Serializer**: To convert python object to JSON in communication, i.e., API.
+
 Watch video: [CS50W - Lecture 3 - Django](https://www.youtube.com/watch?v=w8q0C-C1js4)
