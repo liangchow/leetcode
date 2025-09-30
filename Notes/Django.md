@@ -407,8 +407,10 @@ def add(request):
 ```
 
 ### Django REST Framework
+
 **Models**: Define how data is structured.
-**View**: Like sending an HTTP request. A view function must have a request variable, i.e., `def createUser(request)`.
 **Serializer**: To convert python object to JSON in communication, i.e., API.
+**View**: Import **models**. Like sending an HTTP request. A view function must have a request variable, i.e., `def createUser(request)`.
+**urls**: Import **views**.
 
 Watch video: [CS50W - Lecture 3 - Django](https://www.youtube.com/watch?v=w8q0C-C1js4)
