@@ -414,4 +414,4 @@ def add(request):
 **urls**: Import **views**.
 
 Watch video: [CS50W - Lecture 3 - Django](https://www.youtube.com/watch?v=w8q0C-C1js4)
-Read more: [freeCodeCamp - Django](https://www.freecodecamp.org/news/author/udemezue/)
+Read more: [freeCodeCamp - Django](https://www.freecodecamp.org/news/tag/django/)
