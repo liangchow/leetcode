@@ -32,3 +32,5 @@ Trying these two methods out, the author concluded that `min(J)` method gives be
 
 Still, they used both the elbow and `min(J)` methods in performing CPT layerings in all 272+ soundings.
 The author futher explained that `t,avg` should be independent of `z,max`. When plotting `t,avg vs. z,max` for both elbow and `min(J)` methods, `min(J)` shows nearly zero correlation (good! independent) as opposed to elbow shows a positive correlation (bad. dependent). Then, the author looked into deeper soil profile and concluded to use `min(J)`.
+
+(https://github.com/sjbrandenberg/ngl_tools/tree/main)[ngl tools]
