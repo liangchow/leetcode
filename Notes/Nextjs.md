@@ -69,6 +69,25 @@ export async function GET(request){
     return new Response('JSON.stringify(users)')
 }
 ```
+### Next.js Basic Routing
+
+This app starts a server and listens on port 3000 for connections. The app responds with "Hello world!" for requests to the root URL (/) or **route**. For every other route, it will respond with a **404 Not Found**.
+
+```
+const express = require('express')
+cont app = express()
+const port = 3000
+
+app.get('/, (req, res) => {
+    res.send('Hello world!')
+})
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port})
+})
+
+``` 
+
 ## SEO and Metadata
 Next.js let you define Metadata in two ways: static and dynamic.
 
