@@ -72,11 +72,10 @@ async function signupNewUser() {
         input.value = ''
         input.disabled = true
         
-        // Optional: Re-enable after delay
+        // Optional: Re-enable after 3s delay
         setTimeout(() => {
             input.disabled = false
             subMsg.style.display = 'none'
-            preMsg.style.display = 'block'
         }, 3000)
         
     } catch (err) {
