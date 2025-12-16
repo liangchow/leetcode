@@ -17,6 +17,44 @@
 
 ## Optimize Email Signup Functionality
 
+### Utility Functions
+- **Sanitize inputs**: Trim whitespace and remove `<>` to prevent malicious script tags uploaded.
+```
+function sanitizeInput(input) {
+    if (typeof input !== 'string') return ''
+    return input.trim().replace(/[<>]/g, '')
+}
+```
+- **Validate email**: Validate email formatting
+```
+function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    return emailRegex.test(email) && email.length <= 254 //RFC 5321
+}
+```
+- **Limit rate**: Basic in-memory implementation
+```
+const rateLimitMap = new Map()
+const RATE_LIMIT_WINDOW = 60000    //1 minute
+const MAX_REQUEST = 5
+
+function checkRateLimit(id){
+    const now = Date.now()
+    const userRequests = rateLimitMap.get(id) || []
+
+    // Remove old requests outside the timeframe
+    const recentRequests = userRequests.filter(time => now - time < RATE_LIMIT_WINDOW>)
+
+    if (recentRequests.length >= MAX_REQUESTS){
+        return false  //Rate limit exceeded
+    }
+
+    recentRequests.push(now)
+    rateLimitMap.set(id, recentRequests)
+    return true
+}
+```
+
 ### Front End
 
 - **Email validation**: Use regex to validate input.
@@ -108,7 +146,8 @@ input.addEventListener('keypress', (e) => {
 
 ```
 app.post('/signup', async (req, res) => {
-    const newEmail = (req.body && req.body.email || '').trim()
+    const rawEmail = req.body?.email || ''
+    const newEmail = sanitizeInput(rawEmail).toLowerCase()
     
     if (!newEmail) {
         return res.status(400).json({ message: 'Email required' })
@@ -142,3 +181,5 @@ app.post('/signup', async (req, res) => {
 })
 
 ```
+### Additional References
+[How to Add JavaScript to HTML for Beginners](https://www.digitalocean.com/community/tutorials/how-to-add-javascript-to-html)
