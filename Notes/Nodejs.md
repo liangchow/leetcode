@@ -146,38 +146,42 @@ input.addEventListener('keypress', (e) => {
 
 ```
 app.post('/signup', async (req, res) => {
-    const rawEmail = req.body?.email || ''
-    const newEmail = sanitizeInput(rawEmail).toLowerCase()
-    
-    if (!newEmail) {
-        return res.status(400).json({ message: 'Email required' })
-    }
-    
-    // Basic email validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-    if (!emailRegex.test(newEmail)) {
-        return res.status(400).json({ message: 'Invalid email format' })
-    }
-    
     try {
-        await db.collection('users').doc(newEmail).set(
-            { 
-                email: newEmail,
-                subscribedAt: new Date().toISOString()
-            }, 
-            { merge: true }
-        )
+
+        const rawEmail = req.body?.email || ''
+        const newEmail = sanitizeInput(rawEmail).toLowerCase()
+        
+        if (!newEmail) {
+            return res.status(400).json({ message: 'Email required' })
+        }
+        
+        // Basic email validation
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+        if (!emailRegex.test(newEmail)) {
+            return res.status(400).json({ message: 'Invalid email format' })
+        }
+        
+        // Check email already exists and is active. Enable re-subscription.
+        if (userDoc.exists && userDoc.data().active === true){
+            return res.status(400).json({message: "You're already subscribed"})
+        }
+
+        await db.collection('users').doc(newEmail).set({ 
+            email: newEmail,
+            subscribedAt: FieldValue.serverTimestamp(),
+            active: true, 
+         }, { merge: true })
         
         // Send success response
         res.status(200).json({ 
             message: 'Successfully subscribed!',
             email: newEmail 
         })
-        
-    } catch (err) {
-        console.error('Firebase error:', err)
-        res.status(500).json({ message: 'Failed to register' })
-    }
+            
+        } catch (err) {
+            console.error('Firebase error:', err)
+            res.status(500).json({ message: 'Failed to register' })
+        }
 })
 
 ```
