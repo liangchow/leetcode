@@ -67,4 +67,9 @@ charlie_brown = Employee('Charlie Brown', 'trainee')
 print(charlie_brown)
 print(f'Base salary: ${charlie_brown.salary}')
 charlie_brown.level = 'junior'
+
+// Charlie Brown: trainee
+// Base salary: $1000
+// 'Charlie Brown' promoted to 'junior'.
+// Salary updated to $2000.
 ```
