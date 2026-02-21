@@ -1,5 +1,15 @@
 # Node.js Notes
 
+## Table of Contents
+1. [Setup Quickguide](#setup-quickguide)
+2. [Optimize Email Signup Functionality](#optimize-email-signup-functionality)
+    - [Utility Functions](#utility-functions)
+    - [Front End](#front-end)
+    - [Script Obfuscation (Front End)](#script-obfuscation-front-end)
+    - [Server Endpoint (Node.js)](#server-endpoint-nodejs)
+3. [Additional References](#additional-references)
+
+
 ## Setup Quickguide
 1. Install node.js by using `npm -init -y`. 
 2. Add dependencies, for example, `npm -i express firebase-admin cors stripe dotenv`.
@@ -136,6 +146,10 @@ input.addEventListener('keypress', (e) => {
     }
 })
 ```
+### Script Obfuscation (Front End)
+- Compile with **babel.js**: Babel is used to compile modern JavaScript (ES6+) into a version that is compatible with older browsers and maintains cross-browser compatibility.
+- Obfuscate
+
 
 ### Server Endpoint (Node.js)
 
@@ -185,5 +199,5 @@ app.post('/signup', async (req, res) => {
 })
 
 ```
-### Additional References
+## Additional References
 [How to Add JavaScript to HTML for Beginners](https://www.digitalocean.com/community/tutorials/how-to-add-javascript-to-html)
