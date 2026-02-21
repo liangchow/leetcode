@@ -1,5 +1,7 @@
 # Logistical Exercise
 
+[Data Structure and Algorithm Patterns for LeetCode Interviews – Tutorial](https://www.youtube.com/watch?v=Z_c4byLrNBU)
+
 ### 1. Record Collection Exercise
 
 [Record Collection Link](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/record-collection)
