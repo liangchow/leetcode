@@ -1,4 +1,7 @@
 # TypeScript Notes
+
+[Learn TypeScript – Crash Course for Beginners](https://www.youtube.com/watch?v=ZvZ7gvcmPmI)
+
 ## Table of Contents
 1. [Type Annotations with Objects](#type-annotations-with-objects)
 2. [Functions](#functions)
@@ -8,6 +11,7 @@
 3. [Advanced Types](#advanced-types)
     - [Literal Types (|)](#literal-types-)
     - [Type Alias](#type-alias)
+4. [Enums](#enums)
 
 ## Type Annotations with Objects
 ```
@@ -113,5 +117,21 @@ const bob: Employee = {
 
 console.log(alice)
 console.log(bob)
+```
 
+## Enums
+Assign meaningful names to variables, making code more readable. Commonly used like days and weeks.
+```
+enum Days {
+    Sunday,
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday
+}
+
+const today: Days = Days.Wednesday
+console.lot(`Today is ${Days[today]}.`)     // Output: Today is Wednesday
 ```
