@@ -1,9 +1,13 @@
 # TypeScript Notes
 ## Table of Contents
 1. [Type Annotations with Objects](#type-annotations-with-objects)
-2. [Type Annotations with Functions](#type-annotations-with-functions)
-3. [Optional Parameters (?)](#optional-parameters-)
-4. [Default Parameters (=)](#default-parameters-)
+2. [Functions](#functions)
+    - [Type Annotations with Functions](#type-annotations-with-functions)
+    - [Optional Parameters (?)](#optional-parameters-)
+    - [Default Parameters (=)](#default-parameters-)
+3. [Advanced Types](#advanced-types)
+    - [Literal Types (|)](#literal-types-)
+    - [Type Alias](#type-alias)
 
 ## Type Annotations with Objects
 ```
@@ -27,7 +31,8 @@ let personExTwo: {
 };
 ```
 
-## Type Annotations with Functions
+## Functions
+### Type Annotations with Functions
 ```
 // Function to calculate the area of a rectangle
 function calcRectArea( length: number, width: number): number {
@@ -40,8 +45,7 @@ const width = 3;
 const area = calcRectArea(length, width);
 console.log(area)   // 15
 ```
-
-## Optional Parameters (?)
+### Optional Parameters (?)
 ```
 // Optional params
 function greetOptional(name: string, age?: number){
@@ -55,8 +59,7 @@ function greetOptional(name: string, age?: number){
 greetOptional('Alice');         // Output: "Hello, Alice!"
 greetOptional('Alice', 30);     // Output: "Hello, Alice! You are 30 years old."
 ```
-
-## Default Parameters (=)
+### Default Parameters (=)
 ```
 // Default params
 function greetDefault(name: string, age: number = 25){
@@ -65,4 +68,50 @@ function greetDefault(name: string, age: number = 25){
 
 greetDefault('Alice');         // Output: "Hello, Alice! You are 25 years old."
 greetDefault('Alice', 30);     // Output: "Hello, Alice! You are 30 years old."
+```
+
+## Advanced Types
+### Literal Types (|)
+```
+// Input can only be these values
+let direction: "left" | "right" | "up" | "down";
+
+// Another example
+function setColor(color: "red" | "blue" | "green"){
+    ...
+}
+```
+### Type Alias
+Create custom name for type using `type`.
+```
+//
+type MyString = string;
+let myName: MyString = "Glitcher";
+
+// Can be either string or number
+type MyStringOrNumber = string | number;
+let myValue: MyStringOrNumber = 10;
+```
+```
+// Another example for object
+type Employee = {
+    name: string;
+    age: number;
+    email?: string;
+};
+
+const alice: Employee = {
+    name: "Alice",
+    age: 30,
+    email: "alice@example.com",
+};
+
+const bob: Employee = {
+    name: "Bob",
+    age: 25;
+};
+
+console.log(alice)
+console.log(bob)
+
 ```
