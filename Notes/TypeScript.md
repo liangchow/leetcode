@@ -1,3 +1,4 @@
+<a id="top"></a>
 # TypeScript Notes
 
 [Learn TypeScript – Crash Course for Beginners](https://www.youtube.com/watch?v=ZvZ7gvcmPmI)
@@ -34,6 +35,7 @@ let personExTwo: {
     },
 };
 ```
+[Back to Top](#top)
 
 ## Functions
 ### Type Annotations with Functions
@@ -49,6 +51,7 @@ const width = 3;
 const area = calcRectArea(length, width);
 console.log(area)   // 15
 ```
+
 ### Optional Parameters (?)
 ```
 // Optional params
@@ -63,6 +66,7 @@ function greetOptional(name: string, age?: number){
 greetOptional('Alice');         // Output: "Hello, Alice!"
 greetOptional('Alice', 30);     // Output: "Hello, Alice! You are 30 years old."
 ```
+
 ### Default Parameters (=)
 ```
 // Default params
@@ -73,6 +77,7 @@ function greetDefault(name: string, age: number = 25){
 greetDefault('Alice');         // Output: "Hello, Alice! You are 25 years old."
 greetDefault('Alice', 30);     // Output: "Hello, Alice! You are 30 years old."
 ```
+[Back to Top](#top)
 
 ## Advanced Types
 ### Literal Types (|)
@@ -118,6 +123,7 @@ const bob: Employee = {
 console.log(alice)
 console.log(bob)
 ```
+[Back to Top](#top)
 
 ## Enums
 Assign meaningful names to variables, making code more readable. Commonly used like days and weeks.
@@ -135,3 +141,4 @@ enum Days {
 const today: Days = Days.Wednesday
 console.lot(`Today is ${Days[today]}.`)     // Output: Today is Wednesday.
 ```
+[Back to Top](#top)
