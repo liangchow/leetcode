@@ -1,10 +1,24 @@
+<a id="top"></a>
 # Asynchronous JavaScript Notes
+
+[Asynchronous JavaScript Course – Async/Await , Promises, Callbacks, Fetch API](https://www.youtube.com/watch?v=OFpqvaJ3QYg)
 
 ## Asynchronous Programming
 Asyn programming is a process that allows an app to run set of instruction in parallel (a.k.a. multi-tasking). Several benefits include improved performance, better user XP etc. For example, reduced inefficiencies from an app and efficient data collection.
 
+## Table of Contents
+1. [Basic Async Example](#basic-async-example)
+2. [Use Callback Function](#use-callback-function)
+3. [Promis](#promise)
+4. [.then() and .catch()](#then-and-catch)
+5. [Chaining the Promises, Promise.all()](#chaining-the-promises-promiseall)
+6. [Async/Await](#asyncawait)
+7. [Fetch API](#fetch-api)
+8. [Example: Chuck Norris API](#example-chuck-norris-api)
+
 ## Basic Async Example
 Time-based rendering, `setTimeout()`
+
 ```
 setTimeout(() =>{
     console.log('2. Display this first')
@@ -18,9 +32,11 @@ setTimeout(() =>{
 2. Display this first
 1. Display this second
 ```
+[Back to Top](#top)
 
 ## Use Callback Function
-Caution with the 'callback hill' when too many callback stacks up.
+Caution with the 'callback hell' when too many callback stacks up.
+
 ```
 function task2(callback){
     setTimeout(() =>{
@@ -51,10 +67,11 @@ task1(() => {
 })
 
 // Output:
-2. Display this first
 1. Display this second
+2. Display this first
 3. Display this third
 ```
+[Back to Top](#top)
 
 ## Promise
 A promise is an assurance or guarantee that something will happen in the future. A Promise is an object that holds the future value of an async
@@ -91,6 +108,8 @@ const promise = new Promise((resolve, reject) => {
 ```
 How a promise work: initially, it is set as pending state and then depending on the outcome it will either resolve or reject. In this case, we have to consume the the promise before we can access the data. So, one way to consume the promise is `.then()`.
 
+[Back to Top](#top)
+
 ## .then() and .catch()
 Both `.then()` and `.catch()` methods take a callback function. `.then()` consumes the promise, i.e., resolve, while `.catch()` returns the reject.
 
@@ -116,6 +135,8 @@ promise.then((value) => {
 // returns: 'Oops. Try again', , depending on the random result.
 
 ```
+[Back to Top](#top)
+
 ## Chaining the Promises, Promise.all()
 ```
 // To chain a series of functions, example:
@@ -174,8 +195,12 @@ promise.all([promiseOne, promiseTwo])
 // return the result at the same time even if timeout is different. 
 Promise one is resolved! Promise two is resolved
 ```
+[Back to Top](#top)
+
 ## Async/Await
 To streamline async codes in a synchronous manner. Basically, it waits to the promise to resolve before moving to the next one. See the example below using `setTimeout()` to emulate different time outs. The `Async/Await` method is easier to read compared to chaining with `.then()` and less complicated than `promise().all`.
+
+[Back to Top](#top)
 
 ```
 const preHeatOven = () => {
@@ -229,6 +254,7 @@ After 1 sec....Preheat oven to 180 deg
 After 1 more sec.....Place butter and choco chips
 After 1 more sec.....Enjoy your brownie
 ```
+[Back to Top](#top)
 
 ## Fetch API
 ```
@@ -297,6 +323,8 @@ fetch('https://dummyjson.com/products/1', {
 // Returns:
 Delete product 1 from the list
 ```
+[Back to Top](#top)
+
 ## Example: Chuck Norris API
 ```
 // app.js
@@ -319,9 +347,5 @@ const loadJoke = asyn () => {
 
 // onClick button 
 document.getElementById('loadJokeBtn').addEventListener("click", loadJoke)
-
 ```
-
-
-Resource:
-[Asynchronous JavaScript Course – Async/Await , Promises, Callbacks, Fetch API](https://www.youtube.com/watch?v=OFpqvaJ3QYg)
+[Back to Top](#top)
