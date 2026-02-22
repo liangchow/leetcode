@@ -133,5 +133,5 @@ enum Days {
 }
 
 const today: Days = Days.Wednesday
-console.lot(`Today is ${Days[today]}.`)     // Output: Today is Wednesday
+console.lot(`Today is ${Days[today]}.`)     // Output: Today is Wednesday.
 ```
