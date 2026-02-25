@@ -1,3 +1,4 @@
+<a id="top"></a>
 # Back-End Development and APIs Notes
 
 ## Node Package Manager (npm)
@@ -45,6 +46,8 @@ The `package.json` file is the center of any Node.js project or npm package. It 
 	"homepage": "https://github.com/freeCodeCamp/boilerplate-npm#readme"
 }
 ```
+[Back to Top](#top)
+
 ## Express.js
 
 Express is a Node.js framework for REST APIs. To start a project from scratch, follow these steps:
@@ -79,6 +82,7 @@ project/
 |-- todo-app.rest
 |-- package.json
 ```
+[Back to Top](#top)
 
 ### CRUD-method: Create-post, Read-get, Update-put, and Delete-delete
 
@@ -120,6 +124,7 @@ app.listen(port, ()=>{
     console.log("Server is running on port: ${port}");
 })
 ```
+[Back to Top](#top)
 
 ### db.js
 ```
@@ -147,12 +152,7 @@ db.exec(`
 
 export default db
 ```
-
-
-<!-- 
-For dynamic rendering, install **`hbr express`** module and 
- -->
-
+[Back to Top](#top)
 
 
 
