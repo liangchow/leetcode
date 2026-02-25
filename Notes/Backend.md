@@ -4,9 +4,8 @@
 ## Table of Contents
 1. [Node Package Manager (npm)](#node-package-manager-npm)
 2. [Express.js](#expressjs)
-	-[CRUD Methods](#crud-methods)
-3. [Advanced Types](#advanced-types)
-4. [Enums](#enums)
+	- [CRUD Methods](#crud-methods)
+	- [db.js](#dbjs)
 
 ## Node Package Manager (npm)
 
@@ -131,7 +130,6 @@ app.listen(port, ()=>{
     console.log("Server is running on port: ${port}");
 })
 ```
-[Back to Top](#top)
 
 ### db.js
 ```
