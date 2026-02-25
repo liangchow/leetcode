@@ -1,6 +1,13 @@
 <a id="top"></a>
 # Back-End Development and APIs Notes
 
+## Table of Contents
+1. [Node Package Manager (npm)](#node-package-manager-npm)
+2. [Express.js](#expressjs)
+	-[CRUD Methods](#crud-methods)
+3. [Advanced Types](#advanced-types)
+4. [Enums](#enums)
+
 ## Node Package Manager (npm)
 
 npm (Node Package Manager), is a command line tool to install, create, and share packages of JavaScript code written for Node.js. There are many open source packages available on npm, so before starting a project, take some time to explore so you don't end up recreating the wheel for things like working with dates or fetching data from an API.
@@ -82,9 +89,9 @@ project/
 |-- todo-app.rest
 |-- package.json
 ```
-[Back to Top](#top)
 
-### CRUD-method: Create-post, Read-get, Update-put, and Delete-delete
+### CRUD Methods 
+Create-post, Read-get, Update-put, and Delete-delete
 
 - **`app.use()`**: Add a new middleware to the app, e.g., error handling.
 - **`app.sendFile()`**: Send file, e.g., index.html.
