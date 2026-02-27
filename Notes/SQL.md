@@ -5,6 +5,8 @@ Some Data Management Systems are MySQL, PostgreSQl, SQLite etc. We write Python 
 ## Table of Contents
 1. [General Notes](#general-notes)
 2. [Syntax and Queries](#syntax-and-queries)
+3. [Foreign Keys](#foreign-keys)
+4. [SQL Models](#sql-models)
 
 
 ## General Notes
@@ -154,7 +156,8 @@ Hermione|Shanghai|Paris
 - `FULL OUTER JOIN`
 - `CREATE INDEX`: For example, `CREATE INDEX idx ON passengers (last);` creates index called 'idx' on the last name in the passengers table
 
-## SQL Models: models.py and Migration
+## SQL Models 
+### models.py and Migration
 Every `model` is a `class`. Each changes to the dataset needs to migrate in django.
 
 ```
