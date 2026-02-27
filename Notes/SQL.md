@@ -3,11 +3,11 @@
 Some Data Management Systems are MySQL, PostgreSQl, SQLite etc. We write Python in Django. Django will automatically handle the SQL queries.
 
 ## Table of Contents
-1. [Node Package Manager (npm)](#node-package-manager-npm)
-2. [Express.js](#expressjs)
-    - [CRUD Methods](#crud-methods)
-    - [db.js](#dbjs)
+1. [General Notes](#general-notes)
+2. [Syntax and Queries](#syntax-and-queries)
 
+
+## General Notes
 ### SQLite Support Types
 - TEXT
 - NUMERIC: Boolean, date etc.
