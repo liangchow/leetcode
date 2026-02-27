@@ -48,6 +48,8 @@ Some Data Management Systems are MySQL, PostgreSQl, SQLite etc. We write Python 
 - `HAVING`
 - ...
 
+[Back to Top](#top)
+
 ## Syntax and Queries
 **Important**: SQL recognizes end of command using semi-colon `;`.
 - `CREATE TABLE`: Create a new table.
@@ -101,6 +103,8 @@ SELECT * FROM flights WHERE origin IN ("New York", "Lima");
 // Read all data where the origin has "a" in it
 SELECT * FROM flights WHERE origin LIKE "%a%";
 ```
+[Back to Top](#top)
+
 ## Foreign Keys
 Like "referencing" data to another dataset. For example, create code for each airport using `foreign keys`.
 
@@ -109,6 +113,8 @@ id|code|city
 1|JFK|New York
 2|PVG|Shanghai
 3|IST|Istanbul
+
+[Back to Top](#top)
 
 ### Joining Table, e.g., Relationship Database
 How to relate a dataset to another. For example, how mnay flight can be associated with many passengers.
@@ -156,6 +162,8 @@ Hermione|Shanghai|Paris
 - `FULL OUTER JOIN`
 - `CREATE INDEX`: For example, `CREATE INDEX idx ON passengers (last);` creates index called 'idx' on the last name in the passengers table
 
+[Back to Top](#top)
+
 ## SQL Models 
 ### models.py and Migration
 Every `model` is a `class`. Each changes to the dataset needs to migrate in django.
@@ -198,7 +206,6 @@ class Flight(models.Model):
 415
 
 ```
-
-
+[Back to Top](#top)
 
 Watch video: [CS50W - Lecture 4 - SQL, Models and Migrations](https://www.youtube.com/watch?v=YzP164YANAU)
