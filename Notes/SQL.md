@@ -1,5 +1,8 @@
 <a id="top"></a>
 # SQL, Models, and Migrations Notes
+
+[CS50W - Lecture 4 - SQL, Models and Migrations](https://www.youtube.com/watch?v=YzP164YANAU)
+
 Some Data Management Systems are MySQL, PostgreSQl, SQLite etc. We write Python in Django. Django will automatically handle the SQL queries.
 
 ## Table of Contents
@@ -205,5 +208,3 @@ class Flight(models.Model):
 
 ```
 [Back to Top](#top)
-
-Watch video: [CS50W - Lecture 4 - SQL, Models and Migrations](https://www.youtube.com/watch?v=YzP164YANAU)
