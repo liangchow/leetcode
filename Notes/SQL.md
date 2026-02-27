@@ -114,8 +114,6 @@ id|code|city
 2|PVG|Shanghai
 3|IST|Istanbul
 
-[Back to Top](#top)
-
 ### Joining Table, e.g., Relationship Database
 How to relate a dataset to another. For example, how mnay flight can be associated with many passengers.
 
