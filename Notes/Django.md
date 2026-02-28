@@ -6,9 +6,8 @@ Django is a web framework to generate HTML and CSS for dynamic web applications.
 ## Table of Contents
 1. [Quick Guide: Step-by-Step](#quick-guide-step-by-step)
 2. [Set-Up](#set-up)
-3. [Routes](#Routes)
-    - [CRUD Methods](#crud-methods)
-    - [db.js](#dbjs)
+3. [Routes](#routes)
+4. [Templates](#templates)
 
 ## Quick Guide: Step-by-Step
 
@@ -123,6 +122,8 @@ Now, when we `runserver` and type `127.0.0.1:8000/myApp/`, we will see "Hello wo
 If we type `127.0.0.1:8000/myApp/brian`, we will see "Hello Brian." <br>
 If we type `127.0.0.1:8000/myApp/lucy`, we will see "Hello, Lucy!."
 
+[Back to Top](#top)
+
 ## Templates
 
 Instead of specifying each url, we can use create an `index.html` for each page:
@@ -173,6 +174,8 @@ lecture3/
 ```
 Now, when type `127.0.0.1:8000/hello/`, we will see <h5>Hello, worldddd!</h5>
 When we render the `127.0.0.1:8000/hello/ron` page, we will see `Hello, Ron!`.
+
+[Back to Top](#top)
 
 ### New Year's App: Conditional and Static Files (Styling)
 
