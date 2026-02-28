@@ -1,8 +1,9 @@
+<a id="top"></a>
 # Django Notes
 
 Django is a web framework to generate HTML and CSS for dynamic web applications.
 
-### Quick Guide: Step-by-Step
+## Quick Guide: Step-by-Step
 
 Everything creating a new app, say `newApp`, follow these steps:
 1. Go to `settings.py` of project, add the new app to `INSTALLED_APP` list.
