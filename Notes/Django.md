@@ -3,6 +3,13 @@
 
 Django is a web framework to generate HTML and CSS for dynamic web applications.
 
+## Table of Contents
+1. [Quick Guide: Step-by-Step](#quick-guide-step-by-step)
+2. [Set-Up](#set-up)
+3. [Routes](#Routes)
+    - [CRUD Methods](#crud-methods)
+    - [db.js](#dbjs)
+
 ## Quick Guide: Step-by-Step
 
 Everything creating a new app, say `newApp`, follow these steps:
@@ -60,6 +67,8 @@ lecture3/
 
 - **`python manage.py runserver`**: Run the web server.
 - **`python manage.py createsuperuse`**: Create superuser. Will prompt username and password, to access `admin`.
+
+[Back to Top](#top)
 
 ## Routes
 
