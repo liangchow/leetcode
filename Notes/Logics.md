@@ -1,6 +1,8 @@
 # Logistical Exercise
 
 [Data Structure and Algorithm Patterns for LeetCode Interviews – Tutorial](https://www.youtube.com/watch?v=Z_c4byLrNBU)
+[Reddit guide](https://www.reddit.com/r/learnprogramming/comments/12ghao8/a_guide_to_grinding_leetcode/)
+[Leetcode the Hard Way](https://leetcodethehardway.com/)
 
 ### 1. Record Collection Exercise
 
