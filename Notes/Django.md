@@ -175,8 +175,6 @@ lecture3/
 Now, when type `127.0.0.1:8000/hello/`, we will see <h5>Hello, worldddd!</h5>
 When we render the `127.0.0.1:8000/hello/ron` page, we will see `Hello, Ron!`.
 
-[Back to Top](#top)
-
 ### New Year's App: Conditional and Static Files (Styling)
 
 Try the `newyear` app, if today is the New Year's day, using Django conditional statements with `{% %}`.
@@ -224,6 +222,9 @@ lecture3/
     </body>
 </html>
 ```
+
+[Back to Top](#top)
+
 ## Tasks and Form
 
 Try the `tasks` todo app using `{% for lop %}`.
