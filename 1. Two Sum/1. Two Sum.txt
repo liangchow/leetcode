@@ -1,0 +1,21 @@
+/*
+ * Problem: 1. Two Sum
+ * Difficulty: Easy
+ * Link: https://leetcode.com/problems/two-sum/submissions/1935082346/
+ * Language: Choose a type
+ * Date: 2026-03-01
+ */
+
+    sort(pairs.begin(), pairs.end());
+    int left = 0, right = n - 1;
+    vector<int> ans;
+    while (left < right) {
+      int sum = pairs[left].first + pairs[right].first;
+      if (sum == target) {
+        ans.push_back(pairs[left].second);
+        ans.push_back(pairs[right].second);
+        break;
+      } else if (sum < target)
+        left++;
+      else
+
