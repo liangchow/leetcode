@@ -1,3 +1,4 @@
+<a id="top"></a>
 # Firebase Notes
 
 Cloud Firestore is a NoSQL, document-oriented database. We store data in *documents*, which are organized into *collections*. One advantage is less strictly defined data structure, however, it is encouraged to set criteria on the client side. 
