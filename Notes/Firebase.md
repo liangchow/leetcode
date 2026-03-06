@@ -48,6 +48,8 @@ Users (Collection)
 |   |--name: "Todd Doe"
 |   |--profile_pic: "http://..."
 ```
+[Back to Top](#top)
+
 ## Querying
 
 
@@ -79,3 +81,5 @@ export const db = getFireStore(app)
 ```
 - Create **`.env`** file to store `firebaesConfig()` keys.
 - Create a firebase database, `db` .
+
+[Back to Top](#top)
