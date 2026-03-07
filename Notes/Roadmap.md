@@ -14,56 +14,56 @@
 - [Week 10: Dynamic Programming Pattern](#week-10-dynamic-programming-pattern)
 
 ## Week 1: Arrays & Hash Map
-Core idea: use a hash map (dictionary) for fast lookup or counting.
+**Core idea:** use a hash map (dictionary) for fast lookup or counting.
 
-Practice set:
-Two Sum
-Contains Duplicate
-Valid Anagram
-Group Anagrams
-Top K Frequent Elements
-Product of Array Except Self
-Longest Consecutive Sequence
+**Practice set:**
+1. Two Sum
+2. Contains Duplicate
+3. Valid Anagram
+4. Group Anagrams
+5. Top K Frequent Elements
+6. Product of Array Except Self
+7. Longest Consecutive Sequence
 
-What you learn:
-frequency counting
-lookup optimization
-turning O(n²) → O(n)
+**What you learn:**
+- frequency counting
+- lookup optimization
+- turning O(n²) → O(n)
 
 [Back to Top](#top)
 
 ## Week 2: Two Pointers Pattern
-Core idea: move pointers from both ends or same direction to reduce nested loops.
+**Core idea:** move pointers from both ends or same direction to reduce nested loops.
 
-Practice set:
-Valid Palindrome
-Two Sum II – Input Array Is Sorted
-Container With Most Water
-3Sum
-4Sum
-Remove Duplicates From Sorted Array
-Move Zeroes
+**Practice set:**
+1. Valid Palindrome
+2. Two Sum II – Input Array Is Sorted
+3. Container With Most Water
+4. 3Sum
+5. 4Sum
+6. Remove Duplicates From Sorted Array
+7. Move Zeroes
 
-What you learn:
-pair searching
-sorted array optimization
-reducing brute force
+**What you learn:**
+- pair searching
+- sorted array optimization
+- reducing brute force
 
 [Back to Top](#top)
 
 ## Week 3: Sliding Window Pattern
-Core idea: maintain a window over part of the array/string.
+**Core idea:** maintain a window over part of the array/string.
 
-Practice set:
-Longest Substring Without Repeating Characters
-Longest Repeating Character Replacement
-Minimum Window Substring
-Permutation in String
-Find All Anagrams in a String
+**Practice set:**
+1. Longest Substring Without Repeating Characters
+2. Longest Repeating Character Replacement
+3. Minimum Window Substring
+4. Permutation in String
+5. Find All Anagrams in a String
 
 Maximum Average Subarray
 
-What you learn:
+**What you learn:**
 substring problems
 dynamic window expansion/shrinking
 O(n) substring scanning
@@ -71,9 +71,9 @@ O(n) substring scanning
 [Back to Top](#top)
 
 ## Week 4: Stack Pattern
-Core idea: track state using LIFO structure.
+**Core idea:** track state using LIFO structure.
 
-Practice set:
+**Practice set:**
 Valid Parentheses
 Min Stack
 Daily Temperatures
@@ -81,7 +81,7 @@ Next Greater Element
 Largest Rectangle in Histogram
 Car Fleet
 
-What you learn:
+**What you learn:**
 monotonic stack
 expression evaluation
 tracking previous elements
@@ -89,105 +89,107 @@ tracking previous elements
 [Back to Top](#top)
 
 ## Week 5: Binary Search Pattern
-Core idea: divide search space in half.
+**Core idea:** divide search space in half.
 
-Practice set:
-Binary Search
-Search Insert Position
-Search in Rotated Sorted Array
-Find Minimum in Rotated Sorted Array
-Find Peak Element
-Koko Eating Bananas
+**Practice set:**
+1. Binary Search
+2. Search Insert Position
+3. Search in Rotated Sorted Array
+4. Find Minimum in Rotated Sorted Array
+5. Find Peak Element
+6. Koko Eating Bananas
 
-What you learn:
-decision boundary search
-rotated arrays
-logarithmic search
+**What you learn:**
+- decision boundary search
+- rotated arrays
+- logarithmic search
 
 [Back to Top](#top)
 
 ## Week 6: Linked List Pattern
-Core idea: pointer manipulation.
+**Core idea:** pointer manipulation.
 
-Practice set:
-Reverse Linked List
-Merge Two Sorted Lists
-Linked List Cycle
-Reorder List
-Remove Nth Node From End of List
-Add Two Numbers
+**Practice set:**
+1. Reverse Linked List
+2. Merge Two Sorted Lists
+3. Linked List Cycle
+4. Reorder List
+5. Remove Nth Node From End of List
+6. Add Two Numbers
 
-What you learn:
-fast/slow pointers
-pointer reversal
-list merging
+**What you learn:**
+- fast/slow pointers
+- pointer reversal
+- list merging
 
 [Back to Top](#top)
 
 ## Week 7: Tree DFS / BFS Pattern
-Core idea: recursive traversal or level-order traversal.
+**Core idea:** recursive traversal or level-order traversal.
 
-Practice set:
-Maximum Depth of Binary Tree
-Same Tree
-Invert Binary Tree
-Binary Tree Level Order Traversal
-Lowest Common Ancestor
-Diameter of Binary Tree
+**Practice set:**
+1. Maximum Depth of Binary Tree
+2. Same Tree
+3. Invert Binary Tree
+4. Binary Tree Level Order Traversal
+5. Lowest Common Ancestor
+6. Diameter of Binary Tree
 
-What you learn:
-recursion
-tree traversal
-divide-and-conquer
+**What you learn:**
+- recursion
+- tree traversal
+- divide-and-conquer
 
 [Back to Top](#top)
 
 ## Week 8: Heap / Priority Queue Pattern
-Core idea: efficiently track largest or smallest elements.
+**Core idea:** efficiently track largest or smallest elements.
 
-Practice set:
-Kth Largest Element in an Array
-Top K Frequent Elements
-Find Median from Data Stream
-K Closest Points to Origin
-Merge K Sorted Lists
+**Practice set:**
+1. Kth Largest Element in an Array
+2. Top K Frequent Elements
+3. Find Median from Data Stream
+4. K Closest Points to Origin
+5. Merge K Sorted Lists
 
-What you learn:
-min heap / max heap
-top-K ranking problems
+**What you learn:**
+- min heap / max heap
+- top-K ranking problems
 
 [Back to Top](#top)
 
 ## Week 9: Graph DFS/BFS Pattern
-Core idea: explore nodes using traversal.
+**Core idea:** explore nodes using traversal.
 
-Practice set:
-Number of Islands
-Clone Graph
-Course Schedule
-Pacific Atlantic Water Flow
-Rotting Oranges
-Walls and Gates
+**Practice set:**
+1. Number of Islands
+2. Clone Graph
+3. Course Schedule
+4. Pacific Atlantic Water Flow
+5. Rotting Oranges
+6. Walls and Gates
 
-What you learn:
-connected components
-cycle detection
-graph traversal
+**What you learn:**
+- connected components
+- cycle detection
+- graph traversal
 
 [Back to Top](#top)
 
 ## Week 10: Dynamic Programming Pattern
-Core idea: reuse subproblem results.
+**Core idea:** reuse subproblem results.
 
-Practice set:
-Climbing Stairs
-House Robber
-Coin Change
-Longest Increasing Subsequence
-Word Break
-Longest Common Subsequence
+**Practice set:**
+1. Climbing Stairs
+2. House Robber
+3. Coin Change
+4. Longest Increasing Subsequence
+5. Word Break
+6. Longest Common Subsequence
 
-What you learn:
-1D DP
-2D DP
-optimization problems
+**What you learn:**
+- 1D DP
+- 2D DP
+- optimization problems
+
+[Back to Top](#top)
