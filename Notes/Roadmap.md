@@ -74,17 +74,17 @@ O(n) substring scanning
 **Core idea:** track state using LIFO structure.
 
 **Practice set:**
-Valid Parentheses
-Min Stack
-Daily Temperatures
-Next Greater Element
-Largest Rectangle in Histogram
-Car Fleet
+1. Valid Parentheses
+2. Min Stack
+3. Daily Temperatures
+4. Next Greater Element
+5. Largest Rectangle in Histogram
+6. Car Fleet
 
 **What you learn:**
-monotonic stack
-expression evaluation
-tracking previous elements
+- monotonic stack
+- expression evaluation
+- tracking previous elements
 
 [Back to Top](#top)
 
