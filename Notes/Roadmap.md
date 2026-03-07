@@ -1,6 +1,18 @@
 <a id="top"></a>
 # LeetCode Roadmap
 
+## Table of Contents
+- [Week 1: Arrays & Hash Map](#week-1-arrays-hash-map)
+- [Week 2: Two Pointers Pattern](#week-2-two-pointers-pattern)
+- [Week 3: Sliding Window Pattern](#week-3-sliding-window-pattern)
+- [Week 4: Stack Pattern](#week-4-stack-pattern)
+- [Week 5: Binary Search Pattern](#week-5-binary-search-pattern)
+- [Week 6: Linked List Pattern](#week-6-linked-list-pattern)
+- [Week 7: Tree DFS / BFS Pattern](#week-7-tree-dfs-bfs-pattern)
+- [Week 8: Heap / Priority Queue Pattern](#week-8-heap-priority-queue-pattern)
+- [Week 9: Graph DFS/BFS Pattern](#week-9-graph-dfsbfs-pattern)
+- [Week 10: Dynamic Programming Pattern](#week-10-dynamic-programming-pattern)
+
 ## Week 1: Arrays & Hash Map
 Core idea: use a hash map (dictionary) for fast lookup or counting.
 
@@ -113,7 +125,6 @@ list merging
 [Back to Top](#top)
 
 ## Week 7: Tree DFS / BFS Pattern
-
 Core idea: recursive traversal or level-order traversal.
 
 Practice set:
@@ -132,7 +143,6 @@ divide-and-conquer
 [Back to Top](#top)
 
 ## Week 8: Heap / Priority Queue Pattern
-
 Core idea: efficiently track largest or smallest elements.
 
 Practice set:
@@ -149,7 +159,6 @@ top-K ranking problems
 [Back to Top](#top)
 
 ## Week 9: Graph DFS/BFS Pattern
-
 Core idea: explore nodes using traversal.
 
 Practice set:
