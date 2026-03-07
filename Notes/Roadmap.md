@@ -4,112 +4,79 @@
 ## Week 1: Arrays & Hash Map
 Core idea: use a hash map (dictionary) for fast lookup or counting.
 
-Practice these together:
-
+Practice set:
 Two Sum
-
 Contains Duplicate
-
 Valid Anagram
-
 Group Anagrams
-
 Top K Frequent Elements
-
 Product of Array Except Self
-
 Longest Consecutive Sequence
 
 What you learn:
-
 frequency counting
-
 lookup optimization
-
 turning O(n²) → O(n)
 
-2. Two Pointers Pattern
+[Back to Top](#top)
 
+## Week 2: Two Pointers Pattern
 Core idea: move pointers from both ends or same direction to reduce nested loops.
 
 Practice set:
-
 Valid Palindrome
-
 Two Sum II – Input Array Is Sorted
-
 Container With Most Water
-
 3Sum
-
 4Sum
-
 Remove Duplicates From Sorted Array
-
 Move Zeroes
 
 What you learn:
-
 pair searching
-
 sorted array optimization
-
 reducing brute force
 
-3. Sliding Window Pattern
+[Back to Top](#top)
 
+## Week 3: Sliding Window Pattern
 Core idea: maintain a window over part of the array/string.
 
 Practice set:
-
 Longest Substring Without Repeating Characters
-
 Longest Repeating Character Replacement
-
 Minimum Window Substring
-
 Permutation in String
-
 Find All Anagrams in a String
 
 Maximum Average Subarray
 
 What you learn:
-
 substring problems
-
 dynamic window expansion/shrinking
-
 O(n) substring scanning
 
-4. Stack Pattern
+[Back to Top](#top)
 
+## Week 4: Stack Pattern
 Core idea: track state using LIFO structure.
 
 Practice set:
-
 Valid Parentheses
-
 Min Stack
-
 Daily Temperatures
-
 Next Greater Element
-
 Largest Rectangle in Histogram
-
 Car Fleet
 
 What you learn:
-
 monotonic stack
-
 expression evaluation
-
 tracking previous elements
 
-5. Binary Search Pattern
+[Back to Top](#top)
 
+## Week 5: Binary Search Pattern
 Core idea: divide search space in half.
 
 Practice set:
@@ -125,8 +92,9 @@ decision boundary search
 rotated arrays
 logarithmic search
 
-6. Linked List Pattern
+[Back to Top](#top)
 
+## Week 6: Linked List Pattern
 Core idea: pointer manipulation.
 
 Practice set:
@@ -142,7 +110,9 @@ fast/slow pointers
 pointer reversal
 list merging
 
-7. Tree DFS / BFS Pattern
+[Back to Top](#top)
+
+## Week 7: Tree DFS / BFS Pattern
 
 Core idea: recursive traversal or level-order traversal.
 
@@ -159,7 +129,9 @@ recursion
 tree traversal
 divide-and-conquer
 
-8. Heap / Priority Queue Pattern
+[Back to Top](#top)
+
+## Week 8: Heap / Priority Queue Pattern
 
 Core idea: efficiently track largest or smallest elements.
 
@@ -174,7 +146,9 @@ What you learn:
 min heap / max heap
 top-K ranking problems
 
-9. Graph DFS/BFS Pattern
+[Back to Top](#top)
+
+## Week 9: Graph DFS/BFS Pattern
 
 Core idea: explore nodes using traversal.
 
@@ -191,7 +165,9 @@ connected components
 cycle detection
 graph traversal
 
-10. Dynamic Programming Pattern
+[Back to Top](#top)
+
+## Week 10: Dynamic Programming Pattern
 Core idea: reuse subproblem results.
 
 Practice set:
