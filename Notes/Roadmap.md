@@ -18,7 +18,7 @@
 
 **Practice set:**
 1. Two Sum
-2. Contains Duplicate
+2. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 3. Valid Anagram
 4. Group Anagrams
 5. Top K Frequent Elements
