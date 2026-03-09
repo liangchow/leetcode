@@ -19,8 +19,8 @@
 **Practice set:**
 1. Two Sum
 2. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-3. Valid Anagram
-4. Group Anagrams
+3. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 5. Top K Frequent Elements
 6. Product of Array Except Self
 7. Longest Consecutive Sequence
