@@ -17,7 +17,7 @@
 **Core idea:** use a hash map (dictionary) for fast lookup or counting.
 
 **Practice set:**
-1. Two Sum
+1. [Two Sum](https://leetcode.com/problems/two-sum/)
 2. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 3. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
