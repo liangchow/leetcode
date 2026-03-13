@@ -36,7 +36,7 @@
 **Core idea:** move pointers from both ends or same direction to reduce nested loops.
 
 **Practice set:**
-1. Valid Palindrome
+1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 2. Two Sum II – Input Array Is Sorted
 3. Container With Most Water
 4. 3Sum
