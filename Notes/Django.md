@@ -4,10 +4,19 @@
 Django is a web framework to generate HTML and CSS for dynamic web applications.
 
 ## Table of Contents
-1. [Quick Guide: Step-by-Step](#quick-guide-step-by-step)
-2. [Set-Up](#set-up)
-3. [Routes](#routes)
-4. [Templates](#templates)
+1. [Overview](#overview)
+2. [Quick Guide: Step-by-Step](#quick-guide-step-by-step)
+3. [Set-Up](#set-up)
+4. [Routes](#routes)
+5. [Templates](#templates)
+
+## Overview
+- **`project`**: A `project` is a web application using Django. There is only one project and many `apps` within it.
+- **`module`**: A `module` is a `.py` file. For example, `views.py`, `models.py` are modules.
+- **`__init__.py`**: Add `__init__.py` in an `app` to make Python treat it as a `package`, which contains multiple modules in a directory.
+
+
+[Back to Top](#top)
 
 ## Quick Guide: Step-by-Step
 
@@ -28,7 +37,9 @@ urlpatterns = [
 5. Now, we can write this `index` function in `views.py` of newApp. 
 6. Go to `newApp/` directory, create a new folder called `templates/` then another new folder called `tasks/`.
 7. Inside `newApp/templates/tasks` directory, create a new file called `index.html`.
-8. Now we can write HTML in `index.html`.
+8. Now
+
+[Back to Top](#top)
 
 ## Set-Up
 
