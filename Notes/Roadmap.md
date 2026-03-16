@@ -8,8 +8,8 @@
 - [Week 4: Stack Pattern](#week-4-stack-pattern)
 - [Week 5: Binary Search Pattern](#week-5-binary-search-pattern)
 - [Week 6: Linked List Pattern](#week-6-linked-list-pattern)
-- [Week 7: Tree DFS / BFS Pattern](#week-7-tree-dfs-bfs-pattern)
-- [Week 8: Heap / Priority Queue Pattern](#week-8-heap-priority-queue-pattern)
+- [Week 7: Tree DFS and BFS Pattern](#week-7-tree-dfs-and-bfs-pattern)
+- [Week 8: Heap and Priority Queue Pattern](#week-8-heap-and-priority-queue-pattern)
 - [Week 9: Graph DFS/BFS Pattern](#week-9-graph-dfsbfs-pattern)
 - [Week 10: Dynamic Programming Pattern](#week-10-dynamic-programming-pattern)
 
@@ -21,7 +21,7 @@
 2. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 3. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-5. Top K Frequent Elements
+5. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 6. Product of Array Except Self
 7. Longest Consecutive Sequence
 
