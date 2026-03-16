@@ -11,7 +11,7 @@ Django is a web framework to generate HTML and CSS for dynamic web applications.
 5. [Templates](#templates)
 
 ## Overview
-- **`project`**: A `project` is a web application using Django. There is only one project and many `apps` within it.
+- **`project`**: A `project` is a web application using Django. There is only one `project` and many `apps` within it.
 - **`module`**: A `module` is a `.py` file. For example, `views.py`, `models.py` are modules.
 - **`__init__.py`**: Add `__init__.py` in an `app` to make Python treat it as a `package`, which contains multiple modules in a directory.
 
@@ -440,6 +440,7 @@ def add(request):
 
 Watch video: [CS50W - Lecture 3 - Django](https://www.youtube.com/watch?v=w8q0C-C1js4)
 
-Read more: [freeCodeCamp - Django](https://www.freecodecamp.org/news/tag/django/)
-
-[Django Tutorial](https://studygyaan.com/category/django)
+Read more:
+- [freeCodeCamp - Django](https://www.freecodecamp.org/news/tag/django/)
+- [How to Create an Analayticas Dashboard in Django App](https://www.freecodecamp.org/news/how-to-create-an-analytics-dashboard-in-django-app/)
+- [Django Tutorial](https://studygyaan.com/category/django)
