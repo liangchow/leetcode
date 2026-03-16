@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 10
+- **Total Problems Solved:** 12
 - **Easy:** 10 🟢
-- **Medium:** 0 🟡
+- **Medium:** 2 🟡
 - **Hard:** 0 🔴
 
 ## 📝 Problems
@@ -23,6 +23,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/submissions/1935129317/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-01 |
 | [2248. Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/submissions/1938466484/) | 🟢 Easy | python3 | 2026-03-05 |
 | [Unknown Problem](https://leetcode.com/problems/merge-strings-alternately/submissions/1934100309/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-02-28 |
+| [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/submissions/1949747925/) | 🟡 Medium | python3 | 2026-03-16 |
+| [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/submissions/1949721670/) | 🟡 Medium | python3 | 2026-03-16 |
 
 ---
 
