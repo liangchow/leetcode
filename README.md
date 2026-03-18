@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 14
+- **Total Problems Solved:** 15
 - **Easy:** 10 🟢
-- **Medium:** 4 🟡
+- **Medium:** 5 🟡
 - **Hard:** 0 🔴
 
 ## 📝 Problems
@@ -24,6 +24,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [2248. Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/submissions/1938466484/) | 🟢 Easy | python3 | 2026-03-05 |
 | [Unknown Problem](https://leetcode.com/problems/merge-strings-alternately/submissions/1934100309/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-02-28 |
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/submissions/1951814951/) | 🟡 Medium | python3 | 2026-03-18 |
+| [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/solutions/4932112/no-nested-loops-a-true-on-time-algorithm-81ad/) | 🟡 Medium | python3 | 2026-03-18 |
 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/submissions/1950569149/) | 🟡 Medium | python3 | 2026-03-16 |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/submissions/1949747925/) | 🟡 Medium | python3 | 2026-03-16 |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/submissions/1949721670/) | 🟡 Medium | python3 | 2026-03-16 |
