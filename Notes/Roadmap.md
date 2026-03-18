@@ -37,14 +37,15 @@
 
 **Practice set:**
 1. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
-2. Two Sum II – Input Array Is Sorted
-3. Container With Most Water
+2. [Two Sum II – Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+3. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 4. 3Sum
 5. 4Sum
 6. Remove Duplicates From Sorted Array
 7. Move Zeroes
 
 **What you learn:**
+- Time complexity: O(n); Space complexity: O(1)
 - pair searching
 - sorted array optimization
 - reducing brute force
