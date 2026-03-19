@@ -3,9 +3,10 @@
 My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com/)!
 
 ## 📊 Statistics
-- **Total Problems Solved:** 14
+
+- **Total Problems Solved:** 15
 - **Easy:** 9 🟢
-- **Medium:** 5 🟡
+- **Medium:** 6 🟡
 - **Hard:** 0 🔴
 
 ## 📝 Problems
@@ -21,6 +22,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/submissions/1935129317/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-01 |
 | [2248. Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/submissions/1938466484/) | 🟢 Easy | python3 | 2026-03-05 |
 | [Unknown Problem](https://leetcode.com/problems/merge-strings-alternately/submissions/1934100309/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-02-28 |
+| [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/1953454864/) | 🟡 Medium | python3 | 2026-03-19 |
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | python3 | 2026-03-18 |
 | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/1952531240/) | 🟡 Medium | python3 | 2026-03-18 |
 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/submissions/1950569149/) | 🟡 Medium | python3 | 2026-03-16 |
