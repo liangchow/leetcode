@@ -152,6 +152,7 @@ O(n) substring scanning
 3. Find Median from Data Stream
 4. K Closest Points to Origin
 5. Merge K Sorted Lists
+6. [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 
 **What you learn:**
 - min heap / max heap
