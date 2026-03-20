@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 15
-- **Easy:** 9 🟢
+- **Total Problems Solved:** 16
+- **Easy:** 10 🟢
 - **Medium:** 6 🟡
 - **Hard:** 0 🔴
 
@@ -18,6 +18,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/submissions/1936405337/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-03 |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/submissions/1944679993/) | 🟢 Easy | python3 | 2026-03-11 |
 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/submissions/1934102266/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-02-28 |
+| [2032. Two Out of Three](https://leetcode.com/problems/two-out-of-three/submissions/1954241957/) | 🟢 Easy | python3 | 2026-03-20 |
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/submissions/1942498738/) | 🟢 Easy | python3 | 2026-03-09 |
 | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/submissions/1935129317/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-01 |
 | [2248. Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/submissions/1938466484/) | 🟢 Easy | python3 | 2026-03-05 |
