@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 16
-- **Easy:** 10 🟢
+- **Total Problems Solved:** 17
+- **Easy:** 11 🟢
 - **Medium:** 6 🟡
 - **Hard:** 0 🔴
 
@@ -15,6 +15,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 |---------|-----------|----------|------|
 | [1. Two Sum](https://leetcode.com/problems/two-sum/submissions/1935082346/) | 🟢 Easy | C++ | 2026-03-01 |
 | [1. Two Sum](https://leetcode.com/problems/two-sum/submissions/1935096299/) | 🟢 Easy | python3 | 2026-03-01 |
+| [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/) | 🟢 Easy | python3 | 2026-03-21 |
 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/submissions/1936405337/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-03 |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/submissions/1944679993/) | 🟢 Easy | python3 | 2026-03-11 |
 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/submissions/1934102266/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-02-28 |
