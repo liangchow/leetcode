@@ -40,9 +40,9 @@
 2. [Two Sum II – Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 3. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 4. [3Sum](https://leetcode.com/problems/3sum/)
-5. 4Sum
-6. Remove Duplicates From Sorted Array
-7. Move Zeroes
+5. [4Sum](https://leetcode.com/problems/4sum/)
+6. [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+7. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 
 **What you learn:**
 - Time complexity: O(n) and space complexity: O(1)
