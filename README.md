@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 18
-- **Easy:** 11 🟢
+- **Total Problems Solved:** 19
+- **Easy:** 12 🟢
 - **Medium:** 7 🟡
 - **Hard:** 0 🔴
 
@@ -23,6 +23,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/submissions/1942498738/) | 🟢 Easy | python3 | 2026-03-09 |
 | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/submissions/1935129317/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-01 |
 | [2248. Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/submissions/1938466484/) | 🟢 Easy | python3 | 2026-03-05 |
+| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1956211502/) | 🟢 Easy | python3 | 2026-03-23 |
 | [Unknown Problem](https://leetcode.com/problems/merge-strings-alternately/submissions/1934100309/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-02-28 |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/1953454864/) | 🟡 Medium | python3 | 2026-03-19 |
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | python3 | 2026-03-18 |
