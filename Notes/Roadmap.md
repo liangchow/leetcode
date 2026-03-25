@@ -2,6 +2,7 @@
 # LeetCode Roadmap
 
 ## Table of Contents
+- [Suggested Breakdown](#suggested-breakdown)
 - [Week 1: Arrays & Hash Map](#week-1-arrays-hash-map)
 - [Week 2: Two Pointers Pattern](#week-2-two-pointers-pattern)
 - [Week 3: Sliding Window Pattern](#week-3-sliding-window-pattern)
@@ -12,6 +13,24 @@
 - [Week 8: Heap and Priority Queue Pattern](#week-8-heap-and-priority-queue-pattern)
 - [Week 9: Graph DFS/BFS Pattern](#week-9-graph-dfsbfs-pattern)
 - [Week 10: Dynamic Programming Pattern](#week-10-dynamic-programming-pattern)
+
+## Suggested Breakdown
+Focus on covering core patterns:
+- **Arrays / Prefix / Sliding Window** → 25–40
+- **Hashmaps / Sets** → 20–30
+- **Two Pointers** → 15–25
+- **Binary Search** → 15–25
+- **Stack / Monotonic Stack** → 15–25
+- **Trees / DFS / BFS** → 30–50
+- **Graphs** → 20–40
+- **Dynamic Programming** → 30–60
+
+Target:
+- **~75–100 problems** → you start feeling familiar
+- **~150–250 problems** → you’re comfortable in interviews
+- **300+ problems** → strong pattern recognition, fewer surprises
+
+[Back to Top](#top)
 
 ## Week 1: Arrays & Hash Map
 **Core idea:** use a hash map (dictionary) for fast lookup or counting.
@@ -24,6 +43,8 @@
 5. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) → `defaultdict()`
 6. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) → `prefix, suffix`
 7. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+8. Running Sum → `prefix sum`
+9. Contains Duplicate
 
 **What you learn:**
 - frequency counting
@@ -170,6 +191,7 @@ O(n) substring scanning
 4. Pacific Atlantic Water Flow
 5. Rotting Oranges
 6. Walls and Gates
+7. Topological Sort
 
 **What you learn:**
 - connected components
