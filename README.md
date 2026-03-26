@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 22
-- **Easy:** 14 🟢
+- **Total Problems Solved:** 23
+- **Easy:** 15 🟢
 - **Medium:** 8 🟡
 - **Hard:** 0 🔴
 
@@ -21,6 +21,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/submissions/1934102266/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-02-28 |
 | [2032. Two Out of Three](https://leetcode.com/problems/two-out-of-three/submissions/1954241957/) | 🟢 Easy | python3 | 2026-03-20 |
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/submissions/1942498738/) | 🟢 Easy | python3 | 2026-03-09 |
+| [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/submissions/1960381585/) | 🟢 Easy | python3 | 2026-03-26 |
 | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/submissions/1935129317/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-01 |
 | [2248. Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/submissions/1938466484/) | 🟢 Easy | python3 | 2026-03-05 |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1956211502/) | 🟢 Easy | python3 | 2026-03-23 |
@@ -29,10 +30,10 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [Unknown Problem](https://leetcode.com/problems/merge-strings-alternately/submissions/1934100309/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-02-28 |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/1953454864/) | 🟡 Medium | python3 | 2026-03-19 |
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | python3 | 2026-03-18 |
+| [15. 3Sum](https://leetcode.com/problems/3sum/submissions/1955964862/) | 🟡 Medium | python3 | 2026-03-22 |
 | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/1952531240/) | 🟡 Medium | python3 | 2026-03-18 |
 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/submissions/1950569149/) | 🟡 Medium | python3 | 2026-03-16 |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/submissions/1949747925/) | 🟡 Medium | python3 | 2026-03-16 |
-| [15. 3Sum](https://leetcode.com/problems/3sum/submissions/1955964862/) | 🟡 Medium | python3 | 2026-03-22 |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/submissions/1949721670/) | 🟡 Medium | python3 | 2026-03-16 |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/submissions/1957220739/) | 🟡 Medium | python3 | 2026-03-24 |
 
