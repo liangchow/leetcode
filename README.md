@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 28
-- **Easy:** 17 🟢
+- **Total Problems Solved:** 29
+- **Easy:** 18 🟢
 - **Medium:** 11 🟡
 - **Hard:** 0 🔴
 
@@ -19,6 +19,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/submissions/1936405337/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-03 |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/submissions/1944679993/) | 🟢 Easy | python3 | 2026-03-11 |
 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/submissions/1934102266/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-02-28 |
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/1964309796/) | 🟢 Easy | python3 | 2026-03-30 |
 | [2032. Two Out of Three](https://leetcode.com/problems/two-out-of-three/submissions/1954241957/) | 🟢 Easy | python3 | 2026-03-20 |
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/submissions/1942498738/) | 🟢 Easy | python3 | 2026-03-09 |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/submissions/1960381585/) | 🟢 Easy | python3 | 2026-03-26 |
