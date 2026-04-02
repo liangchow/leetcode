@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 30
-- **Easy:** 18 🟢
+- **Total Problems Solved:** 31
+- **Easy:** 19 🟢
 - **Medium:** 12 🟡
 - **Hard:** 0 🔴
 
@@ -29,6 +29,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [27. Remove Element](https://leetcode.com/problems/remove-element/submissions/1958560466/) | 🟢 Easy | python3 | 2026-03-25 |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/submissions/1957200497/) | 🟢 Easy | python3 | 2026-03-23 |
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/submissions/1960618550/) | 🟢 Easy | python3 | 2026-03-27 |
+| [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/submissions/1966394879/) | 🟢 Easy | python3 | 2026-04-02 |
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/submissions/1960387581/) | 🟢 Easy | python3 | 2026-03-26 |
 | [Unknown Problem](https://leetcode.com/problems/merge-strings-alternately/submissions/1934100309/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-02-28 |
 | [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/submissions/1963441450/) | 🟡 Medium | python3 | 2026-03-30 |
