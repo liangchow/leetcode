@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 34
+- **Total Problems Solved:** 35
 - **Easy:** 20 🟢
-- **Medium:** 14 🟡
+- **Medium:** 15 🟡
 - **Hard:** 0 🔴
 
 ## 📝 Problems
@@ -47,6 +47,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/submissions/1970234939/) | 🟡 Medium | python3 | 2026-04-06 |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/submissions/1957220739/) | 🟡 Medium | python3 | 2026-03-24 |
 | [Unknown Problem](https://leetcode.com/problems/non-overlapping-intervals/submissions/1971241004/) | 🟡 Medium | python3 | 2026-04-07 |
+| [Unknown Problem](https://leetcode.com/problems/non-overlapping-intervals/submissions/1971242486/) | 🟡 Medium | python3 | 2026-04-07 |
 
 ---
 
