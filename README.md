@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 37
-- **Easy:** 21 🟢
+- **Total Problems Solved:** 38
+- **Easy:** 22 🟢
 - **Medium:** 16 🟡
 - **Hard:** 0 🔴
 
@@ -33,6 +33,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/submissions/1960618550/) | 🟢 Easy | python3 | 2026-03-27 |
 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/submissions/1966394879/) | 🟢 Easy | python3 | 2026-04-02 |
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/submissions/1960387581/) | 🟢 Easy | python3 | 2026-03-26 |
+| [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/submissions/1974860308/) | 🟢 Easy | python3 | 2026-04-10 |
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/1974852960/) | 🟢 Easy | python3 | 2026-04-10 |
 | [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/submissions/1963441450/) | 🟡 Medium | python3 | 2026-03-30 |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/1953454864/) | 🟡 Medium | python3 | 2026-03-19 |
