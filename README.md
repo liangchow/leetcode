@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 40
-- **Easy:** 24 🟢
+- **Total Problems Solved:** 41
+- **Easy:** 25 🟢
 - **Medium:** 16 🟡
 - **Hard:** 0 🔴
 
@@ -23,6 +23,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/1964309796/) | 🟢 Easy | python3 | 2026-03-30 |
 | [2032. Two Out of Three](https://leetcode.com/problems/two-out-of-three/submissions/1954241957/) | 🟢 Easy | python3 | 2026-03-20 |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/1983800868/) | 🟢 Easy | python3 | 2026-04-20 |
+| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/1984188819/) | 🟢 Easy | python3 | 2026-04-21 |
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/submissions/1942498738/) | 🟢 Easy | python3 | 2026-03-09 |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/submissions/1960381585/) | 🟢 Easy | python3 | 2026-03-26 |
 | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/submissions/1935129317/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-01 |
