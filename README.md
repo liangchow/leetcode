@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 42
-- **Easy:** 25 🟢
+- **Total Problems Solved:** 43
+- **Easy:** 26 🟢
 - **Medium:** 17 🟡
 - **Hard:** 0 🔴
 
@@ -18,6 +18,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/) | 🟢 Easy | python3 | 2026-03-21 |
 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/submissions/1936405337/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-03 |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/submissions/1944679993/) | 🟢 Easy | python3 | 2026-03-11 |
+| [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/submissions/1988404977/) | 🟢 Easy | python3 | 2026-04-26 |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/submissions/1967179724/) | 🟢 Easy | python3 | 2026-04-02 |
 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/submissions/1934102266/) | 🟢 Easy | python3 | 2026-02-28 |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/1964309796/) | 🟢 Easy | python3 | 2026-03-30 |
