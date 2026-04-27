@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 45
-- **Easy:** 28 🟢
+- **Total Problems Solved:** 46
+- **Easy:** 29 🟢
 - **Medium:** 17 🟡
 - **Hard:** 0 🔴
 
@@ -29,6 +29,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/submissions/1960381585/) | 🟢 Easy | python3 | 2026-03-26 |
 | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/submissions/1935129317/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-01 |
 | [2248. Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/submissions/1938466484/) | 🟢 Easy | python3 | 2026-03-05 |
+| [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/submissions/1989564527/) | 🟢 Easy | python3 | 2026-04-27 |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1956211502/) | 🟢 Easy | python3 | 2026-03-23 |
 | [27. Remove Element](https://leetcode.com/problems/remove-element/submissions/1958560466/) | 🟢 Easy | python3 | 2026-03-25 |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/submissions/1957200497/) | 🟢 Easy | python3 | 2026-03-23 |
