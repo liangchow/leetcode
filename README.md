@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 47
-- **Easy:** 30 🟢
+- **Total Problems Solved:** 48
+- **Easy:** 31 🟢
 - **Medium:** 17 🟡
 - **Hard:** 0 🔴
 
@@ -42,6 +42,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/submissions/1974860308/) | 🟢 Easy | python3 | 2026-04-10 |
 | [682. Baseball Game](https://leetcode.com/problems/baseball-game/submissions/1989114306/) | 🟢 Easy | python3 | 2026-04-27 |
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/submissions/1988422938/) | 🟢 Easy | python3 | 2026-04-26 |
+| [704. Binary Search](https://leetcode.com/problems/binary-search/submissions/1990548511/) | 🟢 Easy | python3 | 2026-04-28 |
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/1974852960/) | 🟢 Easy | python3 | 2026-04-10 |
 | [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/submissions/1963441450/) | 🟡 Medium | python3 | 2026-03-30 |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/1953454864/) | 🟡 Medium | python3 | 2026-03-19 |
