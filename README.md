@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 50
+- **Total Problems Solved:** 51
 - **Easy:** 32 🟢
-- **Medium:** 18 🟡
+- **Medium:** 19 🟡
 - **Hard:** 0 🔴
 
 ## 📝 Problems
@@ -63,6 +63,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/1972058463/) | 🟡 Medium | python3 | 2026-04-07 |
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/submissions/1970234939/) | 🟡 Medium | python3 | 2026-04-06 |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/submissions/1957220739/) | 🟡 Medium | python3 | 2026-03-24 |
+| [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/submissions/1992311418/) | 🟡 Medium | python3 | 2026-05-01 |
 
 ---
 
