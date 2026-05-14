@@ -1,9 +1,9 @@
 #
 # Problem: 35. Search Insert Position
 # Difficulty: Easy
-# Link: https://leetcode.com/problems/search-insert-position/submissions/1990550162/
+# Link: https://leetcode.com/problems/search-insert-position/submissions/2002674616/
 # Language: python3
-# Date: 2026-04-28
+# Date: 2026-05-14
 
 
 class Solution:
@@ -12,7 +12,7 @@ class Solution:
         while l <= r:
             mid = (l+r)//2
             if nums[mid] >= target:
-                r -= 1
+                r = mid-1
             else:
-                l += 1
+                l = mid+1
         return l
