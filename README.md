@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 57
-- **Easy:** 34 🟢
+- **Total Problems Solved:** 56
+- **Easy:** 33 🟢
 - **Medium:** 23 🟡
 - **Hard:** 0 🔴
 
@@ -38,7 +38,6 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/submissions/1977906505/) | 🟢 Easy | python3 | 2026-04-14 |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/submissions/1974844332/) | 🟢 Easy | python3 | 2026-04-10 |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/submissions/1990550162/) | 🟢 Easy | python3 | 2026-04-28 |
-| [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/submissions/2002674616/) | 🟢 Easy | python3 | 2026-05-14 |
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/submissions/1960618550/) | 🟢 Easy | python3 | 2026-03-27 |
 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/submissions/1966394879/) | 🟢 Easy | python3 | 2026-04-02 |
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/submissions/1960387581/) | 🟢 Easy | python3 | 2026-03-26 |
