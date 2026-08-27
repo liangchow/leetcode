@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 57
+- **Total Problems Solved:** 58
 - **Easy:** 33 🟢
-- **Medium:** 24 🟡
+- **Medium:** 25 🟡
 - **Hard:** 0 🔴
 
 ## 📝 Problems
@@ -66,6 +66,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/submissions/1949721670/) | 🟡 Medium | python3 | 2026-03-16 |
 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/submissions/1966377186/) | 🟡 Medium | python3 | 2026-04-02 |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/1972058463/) | 🟡 Medium | python3 | 2026-04-07 |
+| [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/) | 🟡 Medium | python3 | 2026-08-27 |
 | [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/submissions/1996967627/) | 🟡 Medium | python3 | 2026-05-07 |
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/submissions/1970234939/) | 🟡 Medium | python3 | 2026-04-06 |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/submissions/1957220739/) | 🟡 Medium | python3 | 2026-03-24 |
