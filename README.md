@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 60
+- **Total Problems Solved:** 61
 - **Easy:** 33 🟢
-- **Medium:** 27 🟡
+- **Medium:** 28 🟡
 - **Hard:** 0 🔴
 
 ## 📝 Problems
@@ -51,6 +51,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | python3 | 2026-03-18 |
 | [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/submissions/2135487883/) | 🟡 Medium | python3 | 2026-09-08 |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/submissions/1984888059/) | 🟡 Medium | python3 | 2026-04-22 |
+| [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/submissions/2136916707/) | 🟡 Medium | python3 | 2026-09-10 |
 | [15. 3Sum](https://leetcode.com/problems/3sum/submissions/1955964862/) | 🟡 Medium | python3 | 2026-03-22 |
 | [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/solutions/6624281/master-the-bucket-trick-to-instantly-spo-91ud/?envType=problem-list-v2&envId=bucket-sort) | 🟡 Medium | python3 | 2026-08-28 |
 | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/1952531240/) | 🟡 Medium | python3 | 2026-03-18 |
