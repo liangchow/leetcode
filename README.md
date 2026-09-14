@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 61
+- **Total Problems Solved:** 62
 - **Easy:** 33 🟢
-- **Medium:** 28 🟡
+- **Medium:** 29 🟡
 - **Hard:** 0 🔴
 
 ## 📝 Problems
@@ -58,6 +58,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/1991384523/) | 🟡 Medium | python3 | 2026-04-29 |
 | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/submissions/1963430177/) | 🟡 Medium | python3 | 2026-03-30 |
 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/submissions/1950569149/) | 🟡 Medium | python3 | 2026-03-16 |
+| [2461. Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/submissions/2141079257/) | 🟡 Medium | python3 | 2026-09-14 |
 | [2486. Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/submissions/1996418396/) | 🟡 Medium | python3 | 2026-05-06 |
 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/1961427254/) | 🟡 Medium | python3 | 2026-03-28 |
 | [322. Coin Change](https://leetcode.com/problems/coin-change/submissions/1994745152/) | 🟡 Medium | python3 | 2026-05-04 |
