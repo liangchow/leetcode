@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 62
+- **Total Problems Solved:** 63
 - **Easy:** 33 🟢
-- **Medium:** 29 🟡
+- **Medium:** 30 🟡
 - **Hard:** 0 🔴
 
 ## 📝 Problems
@@ -64,6 +64,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [322. Coin Change](https://leetcode.com/problems/coin-change/submissions/1994745152/) | 🟡 Medium | python3 | 2026-05-04 |
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/1996197364/) | 🟡 Medium | python3 | 2026-05-05 |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/submissions/1949747925/) | 🟡 Medium | python3 | 2026-03-16 |
+| [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/submissions/) | 🟡 Medium | python3 | 2026-09-14 |
 | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/) | 🟡 Medium | python3 | 2026-04-07 |
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/submissions/2120205587/) | 🟡 Medium | python3 | 2026-08-25 |
 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/submissions/1972042545/) | 🟡 Medium | python3 | 2026-04-07 |
