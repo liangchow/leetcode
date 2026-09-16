@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 64
+- **Total Problems Solved:** 65
 - **Easy:** 33 🟢
-- **Medium:** 30 🟡
+- **Medium:** 31 🟡
 - **Hard:** 1 🔴
 
 ## 📝 Problems
@@ -73,6 +73,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/1972058463/) | 🟡 Medium | python3 | 2026-04-07 |
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/) | 🟡 Medium | python3 | 2026-08-27 |
 | [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/submissions/1996967627/) | 🟡 Medium | python3 | 2026-05-07 |
+| [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/submissions/2143333184/) | 🟡 Medium | python3 | 2026-09-16 |
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/submissions/1970234939/) | 🟡 Medium | python3 | 2026-04-06 |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/submissions/1957220739/) | 🟡 Medium | python3 | 2026-03-24 |
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/submissions/1992311418/) | 🟡 Medium | python3 | 2026-05-01 |
