@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 66
+- **Total Problems Solved:** 67
 - **Easy:** 33 🟢
-- **Medium:** 32 🟡
+- **Medium:** 33 🟡
 - **Hard:** 1 🔴
 
 ## 📝 Problems
@@ -53,6 +53,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/submissions/1984888059/) | 🟡 Medium | python3 | 2026-04-22 |
 | [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/submissions/2136916707/) | 🟡 Medium | python3 | 2026-09-10 |
 | [15. 3Sum](https://leetcode.com/problems/3sum/submissions/1955964862/) | 🟡 Medium | python3 | 2026-03-22 |
+| [155. Min Stack](https://leetcode.com/problems/min-stack/submissions/2172454712/) | 🟡 Medium | python3 | 2026-10-14 |
 | [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/solutions/6624281/master-the-bucket-trick-to-instantly-spo-91ud/?envType=problem-list-v2&envId=bucket-sort) | 🟡 Medium | python3 | 2026-08-28 |
 | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/1952531240/) | 🟡 Medium | python3 | 2026-03-18 |
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/1991384523/) | 🟡 Medium | python3 | 2026-04-29 |
