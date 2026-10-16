@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 68
-- **Easy:** 34 🟢
+- **Total Problems Solved:** 69
+- **Easy:** 35 🟢
 - **Medium:** 33 🟡
 - **Hard:** 1 🔴
 
@@ -15,6 +15,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 |---------|-----------|----------|------|
 | [1. Two Sum](https://leetcode.com/problems/two-sum/submissions/1935082346/) | 🟢 Easy | C++ | 2026-03-01 |
 | [1. Two Sum](https://leetcode.com/problems/two-sum/submissions/1935096299/) | 🟢 Easy | python3 | 2026-03-01 |
+| [100. Same Tree](https://leetcode.com/problems/same-tree/submissions/2174122047/) | 🟢 Easy | python3 | 2026-10-16 |
 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/2174116015/) | 🟢 Easy | python3 | 2026-10-16 |
 | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/) | 🟢 Easy | python3 | 2026-03-21 |
 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/submissions/1936405337/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-03 |
