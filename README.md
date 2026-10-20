@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 72
-- **Easy:** 37 🟢
+- **Total Problems Solved:** 73
+- **Easy:** 38 🟢
 - **Medium:** 34 🟡
 - **Hard:** 1 🔴
 
@@ -23,6 +23,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/submissions/1988404977/) | 🟢 Easy | python3 | 2026-04-26 |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/submissions/1967179724/) | 🟢 Easy | python3 | 2026-04-02 |
 | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/submissions/2177381476/) | 🟢 Easy | python3 | 2026-10-20 |
+| [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) | 🟢 Easy | python3 | 2026-10-20 |
 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/submissions/1934102266/) | 🟢 Easy | python3 | 2026-02-28 |
 | [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/submissions/1996393726/) | 🟢 Easy | python3 | 2026-05-06 |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/1964309796/) | 🟢 Easy | python3 | 2026-03-30 |
