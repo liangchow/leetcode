@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 70
-- **Easy:** 35 🟢
+- **Total Problems Solved:** 71
+- **Easy:** 36 🟢
 - **Medium:** 34 🟡
 - **Hard:** 1 🔴
 
@@ -47,6 +47,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [682. Baseball Game](https://leetcode.com/problems/baseball-game/submissions/1989114306/) | 🟢 Easy | python3 | 2026-04-27 |
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/submissions/1988422938/) | 🟢 Easy | python3 | 2026-04-26 |
 | [704. Binary Search](https://leetcode.com/problems/binary-search/submissions/1990548511/) | 🟢 Easy | python3 | 2026-04-28 |
+| [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/submissions/2177375436/) | 🟢 Easy | python3 | 2026-10-20 |
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/1974852960/) | 🟢 Easy | python3 | 2026-04-10 |
 | [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/submissions/1963441450/) | 🟡 Medium | python3 | 2026-03-30 |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2174250711/) | 🟡 Medium | python3 | 2026-10-17 |
