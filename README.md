@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 74
-- **Easy:** 39 🟢
+- **Total Problems Solved:** 75
+- **Easy:** 40 🟢
 - **Medium:** 34 🟡
 - **Hard:** 1 🔴
 
@@ -18,6 +18,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [100. Same Tree](https://leetcode.com/problems/same-tree/submissions/2174122047/) | 🟢 Easy | python3 | 2026-10-16 |
 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/2174116015/) | 🟢 Easy | python3 | 2026-10-16 |
 | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/) | 🟢 Easy | python3 | 2026-03-21 |
+| [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/submissions/2178368210/) | 🟢 Easy | python3 | 2026-10-21 |
 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/submissions/1936405337/?envType=study-plan-v2&envId=leetcode-75) | 🟢 Easy | python3 | 2026-03-03 |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/submissions/1944679993/) | 🟢 Easy | python3 | 2026-03-11 |
 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/submissions/1988404977/) | 🟢 Easy | python3 | 2026-04-26 |
