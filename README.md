@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 75
-- **Easy:** 40 🟢
+- **Total Problems Solved:** 76
+- **Easy:** 41 🟢
 - **Medium:** 34 🟡
 - **Hard:** 1 🔴
 
@@ -46,6 +46,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/submissions/1990550162/) | 🟢 Easy | python3 | 2026-04-28 |
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/submissions/1960618550/) | 🟢 Easy | python3 | 2026-03-27 |
 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/submissions/1966394879/) | 🟢 Easy | python3 | 2026-04-02 |
+| [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/submissions/2179216975/) | 🟢 Easy | python3 | 2026-10-22 |
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/submissions/1960387581/) | 🟢 Easy | python3 | 2026-03-26 |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/submissions/1974860308/) | 🟢 Easy | python3 | 2026-04-10 |
 | [682. Baseball Game](https://leetcode.com/problems/baseball-game/submissions/1989114306/) | 🟢 Easy | python3 | 2026-04-27 |
