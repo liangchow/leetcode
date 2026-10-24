@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 76
-- **Easy:** 41 🟢
+- **Total Problems Solved:** 77
+- **Easy:** 42 🟢
 - **Medium:** 34 🟡
 - **Hard:** 1 🔴
 
@@ -51,6 +51,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/submissions/1974860308/) | 🟢 Easy | python3 | 2026-04-10 |
 | [682. Baseball Game](https://leetcode.com/problems/baseball-game/submissions/1989114306/) | 🟢 Easy | python3 | 2026-04-27 |
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/submissions/1988422938/) | 🟢 Easy | python3 | 2026-04-26 |
+| [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/submissions/2180201042/) | 🟢 Easy | python3 | 2026-10-24 |
 | [704. Binary Search](https://leetcode.com/problems/binary-search/submissions/1990548511/) | 🟢 Easy | python3 | 2026-04-28 |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/submissions/2177375436/) | 🟢 Easy | python3 | 2026-10-20 |
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/1974852960/) | 🟢 Easy | python3 | 2026-04-10 |
