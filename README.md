@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 79
+- **Total Problems Solved:** 80
 - **Easy:** 42 🟢
-- **Medium:** 36 🟡
+- **Medium:** 37 🟡
 - **Hard:** 1 🔴
 
 ## 📝 Problems
@@ -86,6 +86,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/1972058463/) | 🟡 Medium | python3 | 2026-04-07 |
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/) | 🟡 Medium | python3 | 2026-08-27 |
 | [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/submissions/1996967627/) | 🟡 Medium | python3 | 2026-05-07 |
+| [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/submissions/2184015882/) | 🟡 Medium | python3 | 2026-10-28 |
 | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/submissions/2143333184/) | 🟡 Medium | python3 | 2026-09-16 |
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/submissions/1970234939/) | 🟡 Medium | python3 | 2026-04-06 |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/submissions/1957220739/) | 🟡 Medium | python3 | 2026-03-24 |
