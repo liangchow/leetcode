@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 78
+- **Total Problems Solved:** 79
 - **Easy:** 42 🟢
-- **Medium:** 35 🟡
+- **Medium:** 36 🟡
 - **Hard:** 1 🔴
 
 ## 📝 Problems
@@ -90,6 +90,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/submissions/1970234939/) | 🟡 Medium | python3 | 2026-04-06 |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/submissions/1957220739/) | 🟡 Medium | python3 | 2026-03-24 |
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/submissions/1992311418/) | 🟡 Medium | python3 | 2026-05-01 |
+| [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/submissions/2183644349/) | 🟡 Medium | python3 | 2026-10-28 |
 | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/submissions/2143078436/) | 🔴 Hard | python3 | 2026-09-15 |
 
 ---
