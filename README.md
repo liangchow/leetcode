@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 80
-- **Easy:** 42 🟢
+- **Total Problems Solved:** 81
+- **Easy:** 43 🟢
 - **Medium:** 37 🟡
 - **Hard:** 1 🔴
 
@@ -44,6 +44,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/submissions/1977906505/) | 🟢 Easy | python3 | 2026-04-14 |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/submissions/1974844332/) | 🟢 Easy | python3 | 2026-04-10 |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/submissions/1990550162/) | 🟢 Easy | python3 | 2026-04-28 |
+| [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/solutions/6637482/master-binary-search-to-verify-perfect-s-ab48/) | 🟢 Easy | python3 | 2026-11-02 |
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/submissions/1960618550/) | 🟢 Easy | python3 | 2026-03-27 |
 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/submissions/1966394879/) | 🟢 Easy | python3 | 2026-04-02 |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/submissions/2179216975/) | 🟢 Easy | python3 | 2026-10-22 |
