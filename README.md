@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 82
+- **Total Problems Solved:** 83
 - **Easy:** 44 🟢
-- **Medium:** 37 🟡
+- **Medium:** 38 🟡
 - **Hard:** 1 🔴
 
 ## 📝 Problems
@@ -77,6 +77,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/1961427254/) | 🟡 Medium | python3 | 2026-03-28 |
 | [322. Coin Change](https://leetcode.com/problems/coin-change/submissions/1994745152/) | 🟡 Medium | python3 | 2026-05-04 |
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/1996197364/) | 🟡 Medium | python3 | 2026-05-05 |
+| [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/2187946425/) | 🟡 Medium | python3 | 2026-11-02 |
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/submissions/1949747925/) | 🟡 Medium | python3 | 2026-03-16 |
 | [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/submissions/) | 🟡 Medium | python3 | 2026-09-14 |
 | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/) | 🟡 Medium | python3 | 2026-04-07 |
