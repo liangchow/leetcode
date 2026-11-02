@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 81
-- **Easy:** 43 🟢
+- **Total Problems Solved:** 82
+- **Easy:** 44 🟢
 - **Medium:** 37 🟡
 - **Hard:** 1 🔴
 
@@ -40,6 +40,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/submissions/1989775403/) | 🟢 Easy | python3 | 2026-04-27 |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1956211502/) | 🟢 Easy | python3 | 2026-03-23 |
 | [27. Remove Element](https://leetcode.com/problems/remove-element/submissions/1958560466/) | 🟢 Easy | python3 | 2026-03-25 |
+| [278. First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | 🟢 Easy | python3 | 2026-11-02 |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/submissions/1957200497/) | 🟢 Easy | python3 | 2026-03-23 |
 | [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/submissions/1977906505/) | 🟢 Easy | python3 | 2026-04-14 |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/submissions/1974844332/) | 🟢 Easy | python3 | 2026-04-10 |
