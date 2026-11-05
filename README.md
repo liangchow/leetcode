@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 85
+- **Total Problems Solved:** 86
 - **Easy:** 44 🟢
-- **Medium:** 40 🟡
+- **Medium:** 41 🟡
 - **Hard:** 1 🔴
 
 ## 📝 Problems
@@ -59,6 +59,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/1974852960/) | 🟢 Easy | python3 | 2026-04-10 |
 | [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/submissions/1963441450/) | 🟡 Medium | python3 | 2026-03-30 |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/2174250711/) | 🟡 Medium | python3 | 2026-10-17 |
+| [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/submissions/2189894748/) | 🟡 Medium | python3 | 2026-11-05 |
 | [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/submissions/2189883372/) | 🟡 Medium | python3 | 2026-11-05 |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/1953454864/) | 🟡 Medium | python3 | 2026-03-19 |
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | python3 | 2026-03-18 |
