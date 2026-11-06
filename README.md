@@ -4,10 +4,10 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 86
+- **Total Problems Solved:** 87
 - **Easy:** 44 🟢
 - **Medium:** 41 🟡
-- **Hard:** 1 🔴
+- **Hard:** 2 🔴
 
 ## 📝 Problems
 
@@ -98,6 +98,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/submissions/1957220739/) | 🟡 Medium | python3 | 2026-03-24 |
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/submissions/1992311418/) | 🟡 Medium | python3 | 2026-05-01 |
 | [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/submissions/2183644349/) | 🟡 Medium | python3 | 2026-10-28 |
+| [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/submissions/2190985981/) | 🔴 Hard | python3 | 2026-11-06 |
 | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/submissions/2143078436/) | 🔴 Hard | python3 | 2026-09-15 |
 
 ---
