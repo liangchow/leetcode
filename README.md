@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 87
+- **Total Problems Solved:** 88
 - **Easy:** 44 🟢
-- **Medium:** 41 🟡
+- **Medium:** 42 🟡
 - **Hard:** 2 🔴
 
 ## 📝 Problems
@@ -83,6 +83,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/submissions/1949747925/) | 🟡 Medium | python3 | 2026-03-16 |
 | [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/submissions/) | 🟡 Medium | python3 | 2026-09-14 |
 | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/) | 🟡 Medium | python3 | 2026-04-07 |
+| [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) | 🟡 Medium | python3 | 2026-11-08 |
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/submissions/2120205587/) | 🟡 Medium | python3 | 2026-08-25 |
 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/submissions/1972042545/) | 🟡 Medium | python3 | 2026-04-07 |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/submissions/1949721670/) | 🟡 Medium | python3 | 2026-03-16 |
