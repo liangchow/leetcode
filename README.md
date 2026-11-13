@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 89
+- **Total Problems Solved:** 90
 - **Easy:** 44 🟢
-- **Medium:** 43 🟡
+- **Medium:** 44 🟡
 - **Hard:** 2 🔴
 
 ## 📝 Problems
@@ -67,6 +67,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/submissions/1984888059/) | 🟡 Medium | python3 | 2026-04-22 |
 | [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/submissions/2136916707/) | 🟡 Medium | python3 | 2026-09-10 |
 | [15. 3Sum](https://leetcode.com/problems/3sum/submissions/1955964862/) | 🟡 Medium | python3 | 2026-03-22 |
+| [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/2195562400/?envType=problem-list-v2&envId=r8jc42fe) | 🟡 Medium | python3 | 2026-11-13 |
 | [155. Min Stack](https://leetcode.com/problems/min-stack/submissions/2172454712/) | 🟡 Medium | python3 | 2026-10-14 |
 | [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/solutions/6624281/master-the-bucket-trick-to-instantly-spo-91ud/?envType=problem-list-v2&envId=bucket-sort) | 🟡 Medium | python3 | 2026-08-28 |
 | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/1952531240/) | 🟡 Medium | python3 | 2026-03-18 |
