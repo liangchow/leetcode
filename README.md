@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 88
+- **Total Problems Solved:** 89
 - **Easy:** 44 🟢
-- **Medium:** 42 🟡
+- **Medium:** 43 🟡
 - **Hard:** 2 🔴
 
 ## 📝 Problems
@@ -87,6 +87,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/submissions/2120205587/) | 🟡 Medium | python3 | 2026-08-25 |
 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/submissions/1972042545/) | 🟡 Medium | python3 | 2026-04-07 |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/submissions/1949721670/) | 🟡 Medium | python3 | 2026-03-16 |
+| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/submissions/2195129506/?envType=problem-list-v2&envId=r8jc42fe) | 🟡 Medium | python3 | 2026-11-13 |
 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/submissions/1966377186/) | 🟡 Medium | python3 | 2026-04-02 |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/submissions/2151227263/) | 🟡 Medium | python3 | 2026-09-23 |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/1972058463/) | 🟡 Medium | python3 | 2026-04-07 |
