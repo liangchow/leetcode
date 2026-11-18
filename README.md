@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 92
-- **Easy:** 44 🟢
+- **Total Problems Solved:** 93
+- **Easy:** 45 🟢
 - **Medium:** 46 🟡
 - **Hard:** 2 🔴
 
@@ -39,6 +39,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | 🟢 Easy | python3 | 2026-10-21 |
 | [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/submissions/1989775403/) | 🟢 Easy | python3 | 2026-04-27 |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1956211502/) | 🟢 Easy | python3 | 2026-03-23 |
+| [268. Missing Number](https://leetcode.com/problems/missing-number/?envType=problem-list-v2&envId=r8jc42fe) | 🟢 Easy | python3 | 2026-11-18 |
 | [27. Remove Element](https://leetcode.com/problems/remove-element/submissions/1958560466/) | 🟢 Easy | python3 | 2026-03-25 |
 | [278. First Bad Version](https://leetcode.com/problems/first-bad-version/description/) | 🟢 Easy | python3 | 2026-11-02 |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/submissions/1957200497/) | 🟢 Easy | python3 | 2026-03-23 |
