@@ -4,9 +4,9 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 93
+- **Total Problems Solved:** 94
 - **Easy:** 45 🟢
-- **Medium:** 46 🟡
+- **Medium:** 47 🟡
 - **Hard:** 2 🔴
 
 ## 📝 Problems
@@ -94,6 +94,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/submissions/2195129506/?envType=problem-list-v2&envId=r8jc42fe) | 🟡 Medium | python3 | 2026-11-13 |
 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/submissions/1966377186/) | 🟡 Medium | python3 | 2026-04-02 |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/submissions/2151227263/) | 🟡 Medium | python3 | 2026-09-23 |
+| [55. Jump Game](https://leetcode.com/problems/jump-game/submissions/2199185863/?envType=problem-list-v2&envId=r8jc42fe) | 🟡 Medium | python3 | 2026-11-19 |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/1972058463/) | 🟡 Medium | python3 | 2026-04-07 |
 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/) | 🟡 Medium | python3 | 2026-08-27 |
 | [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/submissions/1996967627/) | 🟡 Medium | python3 | 2026-05-07 |
